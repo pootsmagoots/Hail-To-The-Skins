@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+
 }
 body {
   margin: 0;
@@ -21,6 +22,12 @@ header {
   text-align: center;
   width: 100%;
   height: 400px;
+  margin-bottom: 20px;
+  background:  linear-gradient(#FCC961, transparent),
+               linear-gradient(0deg, #fff, transparent 30%),
+               url("../img/redskins-helmet.jpg") no-repeat center/cover;
+
+
 }
 
 nav ul li {
@@ -35,7 +42,8 @@ nav ul li {
 /* Styling primary and secondary content on main page */
 
 .primary-content {
-  height: 200px;
+  height: 400px;
+
 
 }
 
@@ -47,6 +55,7 @@ nav ul li {
 
 .secondary-content {
   height: 200px;
+
 }
 
 /* classes/elements used over multiple elements */
@@ -57,6 +66,7 @@ nav ul li {
 
 a {
  text-decoration: none !important;
+ color: #000;
 }
 
 
@@ -66,4 +76,11 @@ a {
 footer {
   width: 100%;
   text-align: center;
+}
+
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
 }
