@@ -21,13 +21,11 @@ body {
 header {
   text-align: center;
   width: 100%;
-  height: 400px;
+  height: 650px;
   margin-bottom: 20px;
   background:  linear-gradient(#FCC961, transparent),
                linear-gradient(0deg, #fff, transparent 30%),
                url("../img/redskins-helmet.jpg") no-repeat center/cover;
-
-
 }
 
 nav ul li {
@@ -42,11 +40,11 @@ nav ul li {
 /* Styling primary and secondary content on main page */
 
 .primary-content {
-  height: 600px;
+  height: 750px;
 }
 
 .primary-content, .secondary-content {
-  width: 60%;
+  width: 80%;
   margin: auto;
   text-align: center;
 }
@@ -55,45 +53,70 @@ nav ul li {
   height: 200px;
 }
 
+.player-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.second-player-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 /* Divs with pictures primary-content */
 
 .linemen-div {
-  background: url("../img/Russ-Grim.jpg") no-repeat center/cover;
+  background:  linear-gradient(#fff, transparent),
+               linear-gradient(0deg, #fff, transparent 30%),
+               url("../img/Russ-Grim.jpg") no-repeat center/cover;
   width: 200px;
-  height: 150px;
-  float: left;
-  display: block;
-  margin-bottom: 10px;
+  height: 250px;
+  margin: 0 10px;
 }
 
 .receiver-div {
-  background: url('../img/Artmonk.jpg') no-repeat top/cover;
+  background: linear-gradient(#fff, transparent),
+              linear-gradient(0deg, #fff, transparent 30%),
+              url("../img/Sonny.jpg") no-repeat top/cover;
   width: 200px;
-  height: 150px;
-  float: right;
-  display: block;
-  margin-bottom: 10px;
+  height: 250px;
+  margin: 0 10px;
+  margin-top: 50px;
 }
 
 .running-back-div {
-  background: url("../img/John-Riggins.jpg") no-repeat top/cover;
+  background: linear-gradient(#fff, transparent),
+               linear-gradient(0deg, #fff, transparent 30%),
+
+  url("../img/John-Riggins.jpg") no-repeat top/cover;
   width: 200px;
-  height: 150px;
-  display: inline-block;
-  float: left;
-  margin-top: 10px;
+  height: 250px;
+  margin: 0 10px;
 }
 
 .defense-player-div {
-  background: url("../img/Darrel-Green.jpg") no-repeat top/cover;
+  background: linear-gradient(#fff, transparent),
+              linear-gradient(0deg, #fff, transparent 30%),
+              url("../img/Darrel-Green.jpg") no-repeat top/cover;
   width: 200px;
-  height: 150px;
-  float: right;
-  margin-top: 10px;
-
+  height: 250px;
+  margin-top: 15px;
+  margin-left: 10px;
 }
 
-
+.quarter-back-div {
+  background: linear-gradient(#fff, transparent),
+              linear-gradient(0deg, #fff, transparent 30%),
+              url('../img/Artmonk.jpg') no-repeat top/cover;
+  width: 200px;
+  height: 250px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
 
 
 /* classes/elements used over multiple elements */
@@ -108,7 +131,14 @@ a {
 }
 
 .anchor > a {
-  color: #fff;
+  color: #000;
+  padding: 10px;
+  padding-top: 200px;
+
+  display: block;
+}
+.opacity {
+  opacity: 0.9;
 }
 /* footer and bottom half of page */
 
