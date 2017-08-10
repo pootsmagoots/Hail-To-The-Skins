@@ -42,9 +42,7 @@ nav ul li {
 /* Styling primary and secondary content on main page */
 
 .primary-content {
-  height: 400px;
-
-
+  height: 600px;
 }
 
 .primary-content, .secondary-content {
@@ -55,8 +53,48 @@ nav ul li {
 
 .secondary-content {
   height: 200px;
+}
+
+/* Divs with pictures primary-content */
+
+.linemen-div {
+  background: url("../img/Russ-Grim.jpg") no-repeat center/cover;
+  width: 200px;
+  height: 150px;
+  float: left;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.receiver-div {
+  background: url('../img/Artmonk.jpg') no-repeat top/cover;
+  width: 200px;
+  height: 150px;
+  float: right;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.running-back-div {
+  background: url("../img/John-Riggins.jpg") no-repeat top/cover;
+  width: 200px;
+  height: 150px;
+  display: inline-block;
+  float: left;
+  margin-top: 10px;
+}
+
+.defense-player-div {
+  background: url("../img/Darrel-Green.jpg") no-repeat top/cover;
+  width: 200px;
+  height: 150px;
+  float: right;
+  margin-top: 10px;
 
 }
+
+
+
 
 /* classes/elements used over multiple elements */
 
@@ -69,8 +107,9 @@ a {
  color: #000;
 }
 
-
-
+.anchor > a {
+  color: #fff;
+}
 /* footer and bottom half of page */
 
 footer {
@@ -78,9 +117,9 @@ footer {
   text-align: center;
 }
 
-
+/*
 .group:after {
   content: "";
   display: table;
   clear: both;
-}
+}*/
