@@ -11,11 +11,7 @@ body {
   font-size: 1em;
 }
 
-/*div {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}*/
+
 
 /* Styling of header and content inside header */
 
@@ -25,9 +21,9 @@ header {
   height: 40.625em;
   margin-bottom: 1.25em;
   background:  linear-gradient(#F5B312 1% , transparent 50%) ,
-               linear-gradient(0deg, #6C0F26 1%, transparent 30%),
+               linear-gradient(0deg, #6C0F26 1%, transparent 50%),
                url("../img/redskins-helmet5.jpg") no-repeat center/cover;
-
+ background-attachment: fixed;
 }
 
 nav ul li {
@@ -100,7 +96,7 @@ player section on main page  */
   width: 12.5em;
   height: 15.625em;
   margin: 0 0.625em;
-  margin-top: 3.125em;
+  margin-top: 3.825em;
 }
 
 .running-back-div {
@@ -243,7 +239,7 @@ footer {
     }
 }
 
-@media (min-width: 159px) and (max-width: 580px) {
+@media (min-width: 359px) and (max-width: 580px) {
   .primary-content {
       height: 130.875em;
       width: 69%;
@@ -283,6 +279,56 @@ footer {
    color: #fff;
    padding: 1.25em;
    padding-top: 16.0em;
+   display: block;
+ }
+}
+
+
+@media (min-width: 159px) and (max-width: 358px) {
+  .primary-content {
+      height: 148.875em;
+      width: 50%;
+  }
+
+.linemen-div {
+    background: linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Russ-Grim.jpg") no-repeat center/cover;
+    width: 10.5em;
+    height: 20.625em;
+    margin: 15px;
+    padding: 20px;
+}
+.quarter-back-div {
+    background: linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Sonny.jpg") no-repeat top/cover;
+    width: 10.5em;
+    height: 20.625em;
+    margin: 15px;
+    padding: 20px;
+}
+.running-back-div {
+    background: linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/John-Riggins.jpg") no-repeat top/cover;
+    width: 10.5em;
+    height: 20.625em;
+    margin: 15px;
+    padding: 20px;
+}
+.defense-player-div {
+    background: linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Darrel-Green.jpg") no-repeat top/cover;
+    width: 10.5em;
+    height: 20.625em;
+    margin: 15px;
+    padding: 20px;
+}
+.receiver-div {
+    background: linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url('../img/Artmonk.jpg') no-repeat top/cover;
+    width: 10.5em;
+    height: 20.625em;
+    margin: 15px;
+    padding: 20px;
+ }
+ .anchor > a {
+   color: #fff;
+   padding: 1.25em;
+   padding-top: 11.0em;
    display: block;
  }
 }
