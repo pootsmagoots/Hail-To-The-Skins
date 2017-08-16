@@ -9,6 +9,7 @@ body {
   padding: 0;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 1em;
+  background-color: #EFEFEF;
 }
 
 
@@ -54,11 +55,7 @@ player section on main page  */
   height: 46.875em;
 }
 
-.secondary-content {
-  height: 37.5em;
-}
-
-.primary-content, .secondary-content {
+.primary-content{
   width: 80%;
   margin: auto;
   text-align: center;
@@ -131,13 +128,21 @@ player section on main page  */
 
 /* styling secondary content divs/pictures and heading/paragraphs */
 
-.secondary-content .superbowl {
-  background: linear-gradient(#F5B312 1% , transparent 50%) ,
-              linear-gradient(0deg, #6C0F26 1%, transparent 30%),
-              url("../img/superbowl.jpg") no-repeat center/cover;
+.secondary-content {
+  text-align: center;
   width: 100%;
-  height: 300px;
-  box-shadow: inset 4px -4px 5px 10px #000, 3px 3px 10px 10px #000;
+  height: 40.625em;
+  margin-bottom: 1.25em;
+  background:  linear-gradient(#F5B312 1% , transparent 50%) ,
+               linear-gradient(0deg, #6C0F26 1%, transparent 50%),
+               url("../img/superbowl.jpg") no-repeat center/cover;
+ background-attachment: fixed;
+}
+
+.superbowl-discription h3{
+  text-align: center;
+  color: #000;
+  font-size: 2rem;
 }
 
 /* classes/elements used over multiple elements */
@@ -165,16 +170,6 @@ a {
   box-shadow: 5px 4px 20px 5px #000;
 }
 
-/* styling secondary content divs/pictures and heading/paragraphs */
-
-.secondary-content .superbowl {
-  background: linear-gradient(#F5B312 1% , transparent 50%) ,
-              linear-gradient(0deg, #6C0F26 1%, transparent 30%),
-              url("../img/superbowl.jpg") no-repeat center/cover;
-  width: 100%;
-  height: 300px;
-  box-shadow: inset 4px -4px 5px 10px #000, 3px 3px 10px 10px #000;
-}
 
 
 /* footer and bottom half of page */
