@@ -154,20 +154,11 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  text-align: center;
   color: #000;
   font-size: 2rem;
+  height: 500px;
 }
 
-.superbowls {
-  background: linear-gradient(#fff, transparent 40%),
-              linear-gradient(0deg, #6C0F26, transparent 50%),
-              url("../img/trophy.jpg") no-repeat center/cover;
-  width: 200px;
-  height: 200px;
-  margin: 20px 20px;
-  box-shadow: 5px 5px 5px #000;
-}
 
 
 
