@@ -5,7 +5,7 @@
 
 }
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 1em;
@@ -162,6 +162,7 @@ h3 {
 
 
 
+
 /* classes/elements used over multiple elements */
 
 
@@ -208,6 +209,11 @@ footer {
 
 
 /* Media Queries */
+@media (min-width: 1300px) and (max-width: 1640px) {
+  body {
+    width: 70%;
+  }
+}
 
 @media (max-width: 840px) {
     .primary-content {
