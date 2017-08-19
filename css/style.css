@@ -11,8 +11,6 @@
 }
 
 
-}
-
 /* Universal selectors
 ----------------------*/
 * {
@@ -142,6 +140,11 @@ player section on main page
                 url("../img/redskins.jpg") no-repeat bottom/cover;
     background-attachment: fixed;
 }
+.superbowl-section {
+    margin: 0 auto;
+    width: 80%;
+    height: 55em;
+}
 .superbowl-section h3 {
     text-align: center;
     font-size: 2rem;
@@ -155,21 +158,13 @@ player section on main page
     flex-direction: row;
     justify-content: space-around;
     color: #000;
-
-}
-.superbowl-section {
-    margin: 0 auto;
-    width: 80%;
-    height: 50em;
+    font-size: 2rem;
 }
 .superbowls {
     margin: 20px;
     font-size: 1rem;
 }
 
-.test {
-  float: right;
-}
 
 /* classes/elements used over multiple elements
 ---------------------------------------------- */
@@ -221,7 +216,7 @@ a {
     }
 
     .container {
-        display: calc(100vh - 14px)
+        display: calc(100vh - 34px)
     }
 }
 @media (max-width: 840px) {
@@ -285,8 +280,7 @@ a {
 }
 @media (min-width: 359px) and (max-width: 580px) {
     .primary-content {
-
-        height: 130.875em;
+        height: 128.875em;
         width: 69%;
     }
 
@@ -353,69 +347,6 @@ a {
         color: #fff;
         padding: 1.25em;
         padding-top: 16.0em;
-        display: block;
-    }
-}
-@media (min-width: 159px) and (max-width: 358px) {
-    .primary-content {
-        height: 148.875em;
-        width: 50%;
-    }
-
-    .linemen-div {
-        background: linear-gradient(#fff, transparent),
-                    linear-gradient(0deg, #6C0F26, transparent 30%),
-                    url("../img/Russ-Grim.jpg") no-repeat center/cover;
-        width: 10.5em;
-        height: 20.625em;
-        margin: 15px;
-        padding: 20px;
-    }
-
-    .quarter-back-div {
-        background: linear-gradient(#fff, transparent),
-                    linear-gradient(0deg, #6C0F26, transparent 30%),
-                    url("../img/Sonny.jpg") no-repeat top/cover;
-        width: 10.5em;
-        height: 20.625em;
-        margin: 15px;
-        padding: 20px;
-    }
-
-    .running-back-div {
-        background: linear-gradient(#fff, transparent),
-                    linear-gradient(0deg, #6C0F26, transparent 30%),
-                    url("../img/John-Riggins.jpg") no-repeat top/cover;
-        width: 10.5em;
-        height: 20.625em;
-        margin: 15px;
-        padding: 20px;
-    }
-
-    .defense-player-div {
-        background: linear-gradient(#fff, transparent),
-                    linear-gradient(0deg, #6C0F26, transparent 30%),
-                    url("../img/Darrel-Green.jpg") no-repeat top/cover;
-        width: 10.5em;
-        height: 20.625em;
-        margin: 15px;
-        padding: 20px;
-    }
-
-    .receiver-div {
-        background: linear-gradient(#fff, transparent),
-                    linear-gradient(0deg, #6C0F26, transparent 30%),
-                    url('../img/Artmonk.jpg') no-repeat top/cover;
-        width: 10.5em;
-        height: 20.625em;
-        margin: 15px;
-        padding: 20px;
-    }
-
-    .anchor>a {
-        color: #fff;
-        padding: 1.25em;
-        padding-top: 11.0em;
         display: block;
     }
 }

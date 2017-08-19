@@ -1,0 +1,1398 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/6.7.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'linter' ]
+2 info using npm@3.10.7
+3 info using node@v6.7.0
+4 verbose config Skipping project config: /Users/travisbatts/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly fetchPackageMetaData linter
+9 silly fetchNamedPackageData linter
+10 silly mapToRegistry name linter
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry data Result {
+13 silly mapToRegistry   raw: 'linter',
+13 silly mapToRegistry   scope: null,
+13 silly mapToRegistry   escapedName: 'linter',
+13 silly mapToRegistry   name: 'linter',
+13 silly mapToRegistry   rawSpec: '',
+13 silly mapToRegistry   spec: 'latest',
+13 silly mapToRegistry   type: 'tag' }
+14 silly mapToRegistry uri https://registry.npmjs.org/linter
+15 verbose request uri https://registry.npmjs.org/linter
+16 verbose request no auth needed
+17 info attempt registry request try #1 at 8:53:58 PM
+18 verbose request id 56c23666f1ebfab3
+19 http request GET https://registry.npmjs.org/linter
+20 http 200 https://registry.npmjs.org/linter
+21 verbose headers { server: 'nginx/1.10.1',
+21 verbose headers   'content-type': 'application/json',
+21 verbose headers   'last-modified': 'Wed, 23 Mar 2011 14:13:19 GMT',
+21 verbose headers   etag: 'W/"4d89ffff-1b69"',
+21 verbose headers   'content-encoding': 'gzip',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   'content-length': '1140',
+21 verbose headers   'accept-ranges': 'bytes',
+21 verbose headers   date: 'Sat, 19 Aug 2017 00:53:58 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   age: '0',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-dca17727-DCA',
+21 verbose headers   'x-cache': 'MISS',
+21 verbose headers   'x-cache-hits': '0',
+21 verbose headers   'x-timer': 'S1503104038.480618,VS0,VE94',
+21 verbose headers   vary: 'Accept-Encoding, Accept' }
+22 silly get cb [ 200,
+22 silly get   { server: 'nginx/1.10.1',
+22 silly get     'content-type': 'application/json',
+22 silly get     'last-modified': 'Wed, 23 Mar 2011 14:13:19 GMT',
+22 silly get     etag: 'W/"4d89ffff-1b69"',
+22 silly get     'content-encoding': 'gzip',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     'content-length': '1140',
+22 silly get     'accept-ranges': 'bytes',
+22 silly get     date: 'Sat, 19 Aug 2017 00:53:58 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     age: '0',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-dca17727-DCA',
+22 silly get     'x-cache': 'MISS',
+22 silly get     'x-cache-hits': '0',
+22 silly get     'x-timer': 'S1503104038.480618,VS0,VE94',
+22 silly get     vary: 'Accept-Encoding, Accept' } ]
+23 verbose get saving linter to /Users/travisbatts/.npm/registry.npmjs.org/linter/.cache.json
+24 verbose correctMkdir /Users/travisbatts/.npm correctMkdir not in flight; initializing
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule linter@0.0.7 checking installable status
+38 silly cache add args [ 'linter', null ]
+39 verbose cache add spec linter
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'linter',
+40 silly cache add   scope: null,
+40 silly cache add   escapedName: 'linter',
+40 silly cache add   name: 'linter',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed linter@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for linter
+43 info addNameTag [ 'linter', 'latest' ]
+44 silly mapToRegistry name linter
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'linter',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'linter',
+47 silly mapToRegistry   name: 'linter',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/linter
+49 verbose addNameTag registry:https://registry.npmjs.org/linter not in flight; fetching
+50 verbose get https://registry.npmjs.org/linter not expired, no request
+51 silly addNameTag next cb for linter with tag latest
+52 silly addNamed linter@0.0.7
+53 verbose addNamed "0.0.7" is a plain semver version for linter
+54 silly mapToRegistry name linter
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry data Result {
+57 silly mapToRegistry   raw: 'linter',
+57 silly mapToRegistry   scope: null,
+57 silly mapToRegistry   escapedName: 'linter',
+57 silly mapToRegistry   name: 'linter',
+57 silly mapToRegistry   rawSpec: '',
+57 silly mapToRegistry   spec: 'latest',
+57 silly mapToRegistry   type: 'tag' }
+58 silly mapToRegistry uri https://registry.npmjs.org/linter
+59 verbose addRemoteTarball https://registry.npmjs.org/linter/-/linter-0.0.7.tgz not in flight; adding
+60 verbose addRemoteTarball [ 'https://registry.npmjs.org/linter/-/linter-0.0.7.tgz',
+60 verbose addRemoteTarball   'ac8f9205ace709dbc5006ac1e782207d7958a36e' ]
+61 info retry fetch attempt 1 at 8:53:58 PM
+62 info attempt registry request try #1 at 8:53:58 PM
+63 http fetch GET https://registry.npmjs.org/linter/-/linter-0.0.7.tgz
+64 http fetch 200 https://registry.npmjs.org/linter/-/linter-0.0.7.tgz
+65 silly fetchAndShaCheck shasum ac8f9205ace709dbc5006ac1e782207d7958a36e
+66 verbose addTmpTarball /var/folders/_2/p3cqv49s7gjg___jlz7qbn900000gn/T/npm-51773-b0dad06e/registry.npmjs.org/linter/-/linter-0.0.7.tgz not in flight; adding
+67 verbose addTmpTarball already have metadata; skipping unpack for linter@0.0.7
+68 verbose correctMkdir /Users/travisbatts/.npm correctMkdir not in flight; initializing
+69 silly cache afterAdd linter@0.0.7
+70 verbose afterAdd /Users/travisbatts/.npm/linter/0.0.7/package/package.json not in flight; writing
+71 verbose correctMkdir /Users/travisbatts/.npm correctMkdir not in flight; initializing
+72 verbose afterAdd /Users/travisbatts/.npm/linter/0.0.7/package/package.json written
+73 silly fetchNamedPackageData argsparser
+74 silly mapToRegistry name argsparser
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry data Result {
+77 silly mapToRegistry   raw: 'argsparser',
+77 silly mapToRegistry   scope: null,
+77 silly mapToRegistry   escapedName: 'argsparser',
+77 silly mapToRegistry   name: 'argsparser',
+77 silly mapToRegistry   rawSpec: '',
+77 silly mapToRegistry   spec: 'latest',
+77 silly mapToRegistry   type: 'tag' }
+78 silly mapToRegistry uri https://registry.npmjs.org/argsparser
+79 silly fetchNamedPackageData sharedjs
+80 silly mapToRegistry name sharedjs
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry data Result {
+83 silly mapToRegistry   raw: 'sharedjs',
+83 silly mapToRegistry   scope: null,
+83 silly mapToRegistry   escapedName: 'sharedjs',
+83 silly mapToRegistry   name: 'sharedjs',
+83 silly mapToRegistry   rawSpec: '',
+83 silly mapToRegistry   spec: 'latest',
+83 silly mapToRegistry   type: 'tag' }
+84 silly mapToRegistry uri https://registry.npmjs.org/sharedjs
+85 verbose request uri https://registry.npmjs.org/argsparser
+86 verbose request no auth needed
+87 info attempt registry request try #1 at 8:54:00 PM
+88 http request GET https://registry.npmjs.org/argsparser
+89 verbose request uri https://registry.npmjs.org/sharedjs
+90 verbose request no auth needed
+91 info attempt registry request try #1 at 8:54:00 PM
+92 http request GET https://registry.npmjs.org/sharedjs
+93 http 200 https://registry.npmjs.org/argsparser
+94 verbose headers { server: 'nginx/1.10.1',
+94 verbose headers   'content-type': 'application/json',
+94 verbose headers   'last-modified': 'Fri, 13 Nov 2015 08:43:38 GMT',
+94 verbose headers   etag: 'W/"5645a2ba-1a59"',
+94 verbose headers   'content-encoding': 'gzip',
+94 verbose headers   'cache-control': 'max-age=300',
+94 verbose headers   'content-length': '1810',
+94 verbose headers   'accept-ranges': 'bytes',
+94 verbose headers   date: 'Sat, 19 Aug 2017 00:54:00 GMT',
+94 verbose headers   via: '1.1 varnish',
+94 verbose headers   age: '0',
+94 verbose headers   connection: 'keep-alive',
+94 verbose headers   'x-served-by': 'cache-dca17727-DCA',
+94 verbose headers   'x-cache': 'MISS',
+94 verbose headers   'x-cache-hits': '0',
+94 verbose headers   'x-timer': 'S1503104040.072599,VS0,VE7',
+94 verbose headers   vary: 'Accept-Encoding, Accept' }
+95 silly get cb [ 200,
+95 silly get   { server: 'nginx/1.10.1',
+95 silly get     'content-type': 'application/json',
+95 silly get     'last-modified': 'Fri, 13 Nov 2015 08:43:38 GMT',
+95 silly get     etag: 'W/"5645a2ba-1a59"',
+95 silly get     'content-encoding': 'gzip',
+95 silly get     'cache-control': 'max-age=300',
+95 silly get     'content-length': '1810',
+95 silly get     'accept-ranges': 'bytes',
+95 silly get     date: 'Sat, 19 Aug 2017 00:54:00 GMT',
+95 silly get     via: '1.1 varnish',
+95 silly get     age: '0',
+95 silly get     connection: 'keep-alive',
+95 silly get     'x-served-by': 'cache-dca17727-DCA',
+95 silly get     'x-cache': 'MISS',
+95 silly get     'x-cache-hits': '0',
+95 silly get     'x-timer': 'S1503104040.072599,VS0,VE7',
+95 silly get     vary: 'Accept-Encoding, Accept' } ]
+96 verbose get saving argsparser to /Users/travisbatts/.npm/registry.npmjs.org/argsparser/.cache.json
+97 verbose correctMkdir /Users/travisbatts/.npm correctMkdir not in flight; initializing
+98 silly resolveWithNewModule argsparser@0.0.7 checking installable status
+99 silly cache add args [ 'argsparser@>= 0.0.3', null ]
+100 verbose cache add spec argsparser@>= 0.0.3
+101 silly cache add parsed spec Result {
+101 silly cache add   raw: 'argsparser@>= 0.0.3',
+101 silly cache add   scope: null,
+101 silly cache add   escapedName: 'argsparser',
+101 silly cache add   name: 'argsparser',
+101 silly cache add   rawSpec: '>= 0.0.3',
+101 silly cache add   spec: '>=0.0.3',
+101 silly cache add   type: 'range' }
+102 silly addNamed argsparser@>=0.0.3
+103 verbose addNamed ">=0.0.3" is a valid semver range for argsparser
+104 silly addNameRange { name: 'argsparser', range: '>=0.0.3', hasData: false }
+105 silly mapToRegistry name argsparser
+106 silly mapToRegistry using default registry
+107 silly mapToRegistry registry https://registry.npmjs.org/
+108 silly mapToRegistry data Result {
+108 silly mapToRegistry   raw: 'argsparser',
+108 silly mapToRegistry   scope: null,
+108 silly mapToRegistry   escapedName: 'argsparser',
+108 silly mapToRegistry   name: 'argsparser',
+108 silly mapToRegistry   rawSpec: '',
+108 silly mapToRegistry   spec: 'latest',
+108 silly mapToRegistry   type: 'tag' }
+109 silly mapToRegistry uri https://registry.npmjs.org/argsparser
+110 verbose addNameRange registry:https://registry.npmjs.org/argsparser not in flight; fetching
+111 verbose get https://registry.npmjs.org/argsparser not expired, no request
+112 silly addNameRange number 2 { name: 'argsparser', range: '>=0.0.3', hasData: true }
+113 silly addNameRange versions [ 'argsparser',
+113 silly addNameRange   [ '0.0.3', '0.0.4', '0.0.5', '0.0.6', '0.0.7' ] ]
+114 silly addNamed argsparser@0.0.7
+115 verbose addNamed "0.0.7" is a plain semver version for argsparser
+116 silly mapToRegistry name argsparser
+117 silly mapToRegistry using default registry
+118 silly mapToRegistry registry https://registry.npmjs.org/
+119 silly mapToRegistry data Result {
+119 silly mapToRegistry   raw: 'argsparser',
+119 silly mapToRegistry   scope: null,
+119 silly mapToRegistry   escapedName: 'argsparser',
+119 silly mapToRegistry   name: 'argsparser',
+119 silly mapToRegistry   rawSpec: '',
+119 silly mapToRegistry   spec: 'latest',
+119 silly mapToRegistry   type: 'tag' }
+120 silly mapToRegistry uri https://registry.npmjs.org/argsparser
+121 verbose addRemoteTarball https://registry.npmjs.org/argsparser/-/argsparser-0.0.7.tgz not in flight; adding
+122 verbose addRemoteTarball [ 'https://registry.npmjs.org/argsparser/-/argsparser-0.0.7.tgz',
+122 verbose addRemoteTarball   '41c85e0c3de757b350f12e6ed0e490b1e82dbe06' ]
+123 info retry fetch attempt 1 at 8:54:00 PM
+124 info attempt registry request try #1 at 8:54:00 PM
+125 http fetch GET https://registry.npmjs.org/argsparser/-/argsparser-0.0.7.tgz
+126 http fetch 200 https://registry.npmjs.org/argsparser/-/argsparser-0.0.7.tgz
+127 silly fetchAndShaCheck shasum 41c85e0c3de757b350f12e6ed0e490b1e82dbe06
+128 verbose addTmpTarball /var/folders/_2/p3cqv49s7gjg___jlz7qbn900000gn/T/npm-51773-b0dad06e/registry.npmjs.org/argsparser/-/argsparser-0.0.7.tgz not in flight; adding
+129 verbose addTmpTarball already have metadata; skipping unpack for argsparser@0.0.7
+130 verbose correctMkdir /Users/travisbatts/.npm correctMkdir not in flight; initializing
+131 silly cache afterAdd argsparser@0.0.7
+132 verbose afterAdd /Users/travisbatts/.npm/argsparser/0.0.7/package/package.json not in flight; writing
+133 verbose correctMkdir /Users/travisbatts/.npm correctMkdir not in flight; initializing
+134 verbose afterAdd /Users/travisbatts/.npm/argsparser/0.0.7/package/package.json written
+135 http 200 https://registry.npmjs.org/sharedjs
+136 verbose headers { server: 'nginx/1.10.1',
+136 verbose headers   'content-type': 'application/json',
+136 verbose headers   'last-modified': 'Wed, 23 Mar 2011 11:25:00 GMT',
+136 verbose headers   etag: 'W/"4d89d88c-9fc"',
+136 verbose headers   'content-encoding': 'gzip',
+136 verbose headers   'cache-control': 'max-age=300',
+136 verbose headers   'content-length': '903',
+136 verbose headers   'accept-ranges': 'bytes',
+136 verbose headers   date: 'Sat, 19 Aug 2017 00:54:00 GMT',
+136 verbose headers   via: '1.1 varnish',
+136 verbose headers   age: '0',
+136 verbose headers   connection: 'keep-alive',
+136 verbose headers   'x-served-by': 'cache-dca17748-DCA',
+136 verbose headers   'x-cache': 'MISS',
+136 verbose headers   'x-cache-hits': '0',
+136 verbose headers   'x-timer': 'S1503104040.128831,VS0,VE86',
+136 verbose headers   vary: 'Accept-Encoding, Accept' }
+137 silly get cb [ 200,
+137 silly get   { server: 'nginx/1.10.1',
+137 silly get     'content-type': 'application/json',
+137 silly get     'last-modified': 'Wed, 23 Mar 2011 11:25:00 GMT',
+137 silly get     etag: 'W/"4d89d88c-9fc"',
+137 silly get     'content-encoding': 'gzip',
+137 silly get     'cache-control': 'max-age=300',
+137 silly get     'content-length': '903',
+137 silly get     'accept-ranges': 'bytes',
+137 silly get     date: 'Sat, 19 Aug 2017 00:54:00 GMT',
+137 silly get     via: '1.1 varnish',
+137 silly get     age: '0',
+137 silly get     connection: 'keep-alive',
+137 silly get     'x-served-by': 'cache-dca17748-DCA',
+137 silly get     'x-cache': 'MISS',
+137 silly get     'x-cache-hits': '0',
+137 silly get     'x-timer': 'S1503104040.128831,VS0,VE86',
+137 silly get     vary: 'Accept-Encoding, Accept' } ]
+138 verbose get saving sharedjs to /Users/travisbatts/.npm/registry.npmjs.org/sharedjs/.cache.json
+139 verbose correctMkdir /Users/travisbatts/.npm correctMkdir not in flight; initializing
+140 silly resolveWithNewModule sharedjs@0.0.2 checking installable status
+141 silly cache add args [ 'sharedjs@>= 0.0.1', null ]
+142 verbose cache add spec sharedjs@>= 0.0.1
+143 silly cache add parsed spec Result {
+143 silly cache add   raw: 'sharedjs@>= 0.0.1',
+143 silly cache add   scope: null,
+143 silly cache add   escapedName: 'sharedjs',
+143 silly cache add   name: 'sharedjs',
+143 silly cache add   rawSpec: '>= 0.0.1',
+143 silly cache add   spec: '>=0.0.1',
+143 silly cache add   type: 'range' }
+144 silly addNamed sharedjs@>=0.0.1
+145 verbose addNamed ">=0.0.1" is a valid semver range for sharedjs
+146 silly addNameRange { name: 'sharedjs', range: '>=0.0.1', hasData: false }
+147 silly mapToRegistry name sharedjs
+148 silly mapToRegistry using default registry
+149 silly mapToRegistry registry https://registry.npmjs.org/
+150 silly mapToRegistry data Result {
+150 silly mapToRegistry   raw: 'sharedjs',
+150 silly mapToRegistry   scope: null,
+150 silly mapToRegistry   escapedName: 'sharedjs',
+150 silly mapToRegistry   name: 'sharedjs',
+150 silly mapToRegistry   rawSpec: '',
+150 silly mapToRegistry   spec: 'latest',
+150 silly mapToRegistry   type: 'tag' }
+151 silly mapToRegistry uri https://registry.npmjs.org/sharedjs
+152 verbose addNameRange registry:https://registry.npmjs.org/sharedjs not in flight; fetching
+153 verbose get https://registry.npmjs.org/sharedjs not expired, no request
+154 silly addNameRange number 2 { name: 'sharedjs', range: '>=0.0.1', hasData: true }
+155 silly addNameRange versions [ 'sharedjs', [ '0.0.1', '0.0.2' ] ]
+156 silly addNamed sharedjs@0.0.2
+157 verbose addNamed "0.0.2" is a plain semver version for sharedjs
+158 silly mapToRegistry name sharedjs
+159 silly mapToRegistry using default registry
+160 silly mapToRegistry registry https://registry.npmjs.org/
+161 silly mapToRegistry data Result {
+161 silly mapToRegistry   raw: 'sharedjs',
+161 silly mapToRegistry   scope: null,
+161 silly mapToRegistry   escapedName: 'sharedjs',
+161 silly mapToRegistry   name: 'sharedjs',
+161 silly mapToRegistry   rawSpec: '',
+161 silly mapToRegistry   spec: 'latest',
+161 silly mapToRegistry   type: 'tag' }
+162 silly mapToRegistry uri https://registry.npmjs.org/sharedjs
+163 verbose addRemoteTarball https://registry.npmjs.org/sharedjs/-/sharedjs-0.0.2.tgz not in flight; adding
+164 verbose addRemoteTarball [ 'https://registry.npmjs.org/sharedjs/-/sharedjs-0.0.2.tgz',
+164 verbose addRemoteTarball   'c5fdb24a3555a050fa3c8540a6bb7ad3931027c6' ]
+165 info retry fetch attempt 1 at 8:54:00 PM
+166 info attempt registry request try #1 at 8:54:00 PM
+167 http fetch GET https://registry.npmjs.org/sharedjs/-/sharedjs-0.0.2.tgz
+168 http fetch 200 https://registry.npmjs.org/sharedjs/-/sharedjs-0.0.2.tgz
+169 silly fetchAndShaCheck shasum c5fdb24a3555a050fa3c8540a6bb7ad3931027c6
+170 verbose addTmpTarball /var/folders/_2/p3cqv49s7gjg___jlz7qbn900000gn/T/npm-51773-b0dad06e/registry.npmjs.org/sharedjs/-/sharedjs-0.0.2.tgz not in flight; adding
+171 verbose addTmpTarball already have metadata; skipping unpack for sharedjs@0.0.2
+172 verbose correctMkdir /Users/travisbatts/.npm correctMkdir not in flight; initializing
+173 silly cache afterAdd sharedjs@0.0.2
+174 verbose afterAdd /Users/travisbatts/.npm/sharedjs/0.0.2/package/package.json not in flight; writing
+175 verbose correctMkdir /Users/travisbatts/.npm correctMkdir not in flight; initializing
+176 verbose afterAdd /Users/travisbatts/.npm/sharedjs/0.0.2/package/package.json written
+177 silly fetchNamedPackageData uglify-js
+178 silly mapToRegistry name uglify-js
+179 silly mapToRegistry using default registry
+180 silly mapToRegistry registry https://registry.npmjs.org/
+181 silly mapToRegistry data Result {
+181 silly mapToRegistry   raw: 'uglify-js',
+181 silly mapToRegistry   scope: null,
+181 silly mapToRegistry   escapedName: 'uglify-js',
+181 silly mapToRegistry   name: 'uglify-js',
+181 silly mapToRegistry   rawSpec: '',
+181 silly mapToRegistry   spec: 'latest',
+181 silly mapToRegistry   type: 'tag' }
+182 silly mapToRegistry uri https://registry.npmjs.org/uglify-js
+183 verbose request uri https://registry.npmjs.org/uglify-js
+184 verbose request no auth needed
+185 info attempt registry request try #1 at 8:54:00 PM
+186 verbose etag W/"58dc0abc-28071"
+187 verbose lastModified Wed, 29 Mar 2017 19:27:56 GMT
+188 http request GET https://registry.npmjs.org/uglify-js
+189 http 200 https://registry.npmjs.org/uglify-js
+190 verbose headers { server: 'nginx/1.10.1',
+190 verbose headers   'content-type': 'application/json',
+190 verbose headers   'last-modified': 'Thu, 17 Aug 2017 08:06:20 GMT',
+190 verbose headers   etag: 'W/"59954e7c-373fd"',
+190 verbose headers   'content-encoding': 'gzip',
+190 verbose headers   'cache-control': 'max-age=300',
+190 verbose headers   'content-length': '31376',
+190 verbose headers   'accept-ranges': 'bytes',
+190 verbose headers   date: 'Sat, 19 Aug 2017 00:54:00 GMT',
+190 verbose headers   via: '1.1 varnish',
+190 verbose headers   age: '106',
+190 verbose headers   connection: 'keep-alive',
+190 verbose headers   'x-served-by': 'cache-dca17748-DCA',
+190 verbose headers   'x-cache': 'HIT',
+190 verbose headers   'x-cache-hits': '2',
+190 verbose headers   'x-timer': 'S1503104040.328464,VS0,VE0',
+190 verbose headers   vary: 'Accept-Encoding, Accept' }
+191 silly get cb [ 200,
+191 silly get   { server: 'nginx/1.10.1',
+191 silly get     'content-type': 'application/json',
+191 silly get     'last-modified': 'Thu, 17 Aug 2017 08:06:20 GMT',
+191 silly get     etag: 'W/"59954e7c-373fd"',
+191 silly get     'content-encoding': 'gzip',
+191 silly get     'cache-control': 'max-age=300',
+191 silly get     'content-length': '31376',
+191 silly get     'accept-ranges': 'bytes',
+191 silly get     date: 'Sat, 19 Aug 2017 00:54:00 GMT',
+191 silly get     via: '1.1 varnish',
+191 silly get     age: '106',
+191 silly get     connection: 'keep-alive',
+191 silly get     'x-served-by': 'cache-dca17748-DCA',
+191 silly get     'x-cache': 'HIT',
+191 silly get     'x-cache-hits': '2',
+191 silly get     'x-timer': 'S1503104040.328464,VS0,VE0',
+191 silly get     vary: 'Accept-Encoding, Accept' } ]
+192 verbose get saving uglify-js to /Users/travisbatts/.npm/registry.npmjs.org/uglify-js/.cache.json
+193 verbose correctMkdir /Users/travisbatts/.npm correctMkdir not in flight; initializing
+194 silly resolveWithNewModule uglify-js@3.0.27 checking installable status
+195 silly cache add args [ 'uglify-js@>= 0.0.1', null ]
+196 verbose cache add spec uglify-js@>= 0.0.1
+197 silly cache add parsed spec Result {
+197 silly cache add   raw: 'uglify-js@>= 0.0.1',
+197 silly cache add   scope: null,
+197 silly cache add   escapedName: 'uglify-js',
+197 silly cache add   name: 'uglify-js',
+197 silly cache add   rawSpec: '>= 0.0.1',
+197 silly cache add   spec: '>=0.0.1',
+197 silly cache add   type: 'range' }
+198 silly addNamed uglify-js@>=0.0.1
+199 verbose addNamed ">=0.0.1" is a valid semver range for uglify-js
+200 silly addNameRange { name: 'uglify-js', range: '>=0.0.1', hasData: false }
+201 silly mapToRegistry name uglify-js
+202 silly mapToRegistry using default registry
+203 silly mapToRegistry registry https://registry.npmjs.org/
+204 silly mapToRegistry data Result {
+204 silly mapToRegistry   raw: 'uglify-js',
+204 silly mapToRegistry   scope: null,
+204 silly mapToRegistry   escapedName: 'uglify-js',
+204 silly mapToRegistry   name: 'uglify-js',
+204 silly mapToRegistry   rawSpec: '',
+204 silly mapToRegistry   spec: 'latest',
+204 silly mapToRegistry   type: 'tag' }
+205 silly mapToRegistry uri https://registry.npmjs.org/uglify-js
+206 verbose addNameRange registry:https://registry.npmjs.org/uglify-js not in flight; fetching
+207 verbose get https://registry.npmjs.org/uglify-js not expired, no request
+208 silly addNameRange number 2 { name: 'uglify-js', range: '>=0.0.1', hasData: true }
+209 silly addNameRange versions [ 'uglify-js',
+209 silly addNameRange   [ '0.0.1',
+209 silly addNameRange     '0.0.2',
+209 silly addNameRange     '0.0.3',
+209 silly addNameRange     '0.0.4',
+209 silly addNameRange     '0.0.5',
+209 silly addNameRange     '1.0.1',
+209 silly addNameRange     '1.0.2',
+209 silly addNameRange     '1.0.3',
+209 silly addNameRange     '1.0.4',
+209 silly addNameRange     '1.0.5',
+209 silly addNameRange     '1.0.6',
+209 silly addNameRange     '1.0.7',
+209 silly addNameRange     '1.1.0',
+209 silly addNameRange     '1.1.1',
+209 silly addNameRange     '1.2.0',
+209 silly addNameRange     '1.2.1',
+209 silly addNameRange     '1.2.2',
+209 silly addNameRange     '1.2.3',
+209 silly addNameRange     '1.2.4',
+209 silly addNameRange     '1.2.5',
+209 silly addNameRange     '1.2.6',
+209 silly addNameRange     '1.3.0',
+209 silly addNameRange     '1.3.1',
+209 silly addNameRange     '1.3.2',
+209 silly addNameRange     '1.3.3',
+209 silly addNameRange     '1.3.4',
+209 silly addNameRange     '2.2.0',
+209 silly addNameRange     '2.2.1',
+209 silly addNameRange     '2.2.2',
+209 silly addNameRange     '2.2.3',
+209 silly addNameRange     '2.2.4',
+209 silly addNameRange     '2.2.5',
+209 silly addNameRange     '2.3.0',
+209 silly addNameRange     '2.3.1',
+209 silly addNameRange     '2.3.2',
+209 silly addNameRange     '2.3.3',
+209 silly addNameRange     '2.3.4',
+209 silly addNameRange     '2.3.5',
+209 silly addNameRange     '2.3.6',
+209 silly addNameRange     '1.3.5',
+209 silly addNameRange     '2.4.0',
+209 silly addNameRange     '2.4.1',
+209 silly addNameRange     '2.4.2',
+209 silly addNameRange     '2.4.3',
+209 silly addNameRange     '2.4.4',
+209 silly addNameRange     '2.4.5',
+209 silly addNameRange     '2.4.6',
+209 silly addNameRange     '2.4.7',
+209 silly addNameRange     '2.4.8',
+209 silly addNameRange     '2.4.9',
+209 silly addNameRange     '2.4.10',
+209 silly addNameRange     '2.4.11',
+209 silly addNameRange     '2.4.12',
+209 silly addNameRange     '2.4.13',
+209 silly addNameRange     '2.4.14',
+209 silly addNameRange     '2.4.15',
+209 silly addNameRange     '2.4.16',
+209 silly addNameRange     '2.4.17',
+209 silly addNameRange     '2.4.18',
+209 silly addNameRange     '2.4.19',
+209 silly addNameRange     '2.4.20',
+209 silly addNameRange     '2.4.21',
+209 silly addNameRange     '2.4.22',
+209 silly addNameRange     '2.4.23',
+209 silly addNameRange     '2.4.24',
+209 silly addNameRange     '2.5.0',
+209 silly addNameRange     '2.6.0',
+209 silly addNameRange     '2.6.1',
+209 silly addNameRange     '2.6.2',
+209 silly addNameRange     '2.6.3',
+209 silly addNameRange     '2.6.4',
+209 silly addNameRange     '2.7.0',
+209 silly addNameRange     '2.7.1',
+209 silly addNameRange     '2.7.2',
+209 silly addNameRange     '2.7.3',
+209 silly addNameRange     '2.7.4',
+209 silly addNameRange     '2.7.5',
+209 silly addNameRange     '2.8.0',
+209 silly addNameRange     '2.8.1',
+209 silly addNameRange     '2.8.2',
+209 silly addNameRange     '2.8.3',
+209 silly addNameRange     '2.8.4',
+209 silly addNameRange     '2.8.5',
+209 silly addNameRange     '2.8.6',
+209 silly addNameRange     '2.8.7',
+209 silly addNameRange     '2.8.8',
+209 silly addNameRange     '2.8.9',
+209 silly addNameRange     '2.8.10',
+209 silly addNameRange     '2.8.11',
+209 silly addNameRange     '2.8.12',
+209 silly addNameRange     '2.8.13',
+209 silly addNameRange     '2.8.14',
+209 silly addNameRange     '2.8.15',
+209 silly addNameRange     '2.8.16',
+209 silly addNameRange     '2.8.17',
+209 silly addNameRange     '2.8.18',
+209 silly addNameRange     '2.8.19',
+209 silly addNameRange     '2.8.20',
+209 silly addNameRange     '2.8.21',
+209 silly addNameRange     '2.8.22',
+209 silly addNameRange     ... 34 more items ] ]
+210 silly addNamed uglify-js@3.0.27
+211 verbose addNamed "3.0.27" is a plain semver version for uglify-js
+212 silly mapToRegistry name uglify-js
+213 silly mapToRegistry using default registry
+214 silly mapToRegistry registry https://registry.npmjs.org/
+215 silly mapToRegistry data Result {
+215 silly mapToRegistry   raw: 'uglify-js',
+215 silly mapToRegistry   scope: null,
+215 silly mapToRegistry   escapedName: 'uglify-js',
+215 silly mapToRegistry   name: 'uglify-js',
+215 silly mapToRegistry   rawSpec: '',
+215 silly mapToRegistry   spec: 'latest',
+215 silly mapToRegistry   type: 'tag' }
+216 silly mapToRegistry uri https://registry.npmjs.org/uglify-js
+217 verbose addRemoteTarball https://registry.npmjs.org/uglify-js/-/uglify-js-3.0.27.tgz not in flight; adding
+218 verbose addRemoteTarball [ 'https://registry.npmjs.org/uglify-js/-/uglify-js-3.0.27.tgz',
+218 verbose addRemoteTarball   'a97db8c8ba6b9dba4e2f88d86aa9548fa6320034' ]
+219 info retry fetch attempt 1 at 8:54:00 PM
+220 info attempt registry request try #1 at 8:54:00 PM
+221 http fetch GET https://registry.npmjs.org/uglify-js/-/uglify-js-3.0.27.tgz
+222 http fetch 200 https://registry.npmjs.org/uglify-js/-/uglify-js-3.0.27.tgz
+223 silly fetchAndShaCheck shasum a97db8c8ba6b9dba4e2f88d86aa9548fa6320034
+224 verbose addTmpTarball /var/folders/_2/p3cqv49s7gjg___jlz7qbn900000gn/T/npm-51773-b0dad06e/registry.npmjs.org/uglify-js/-/uglify-js-3.0.27.tgz not in flight; adding
+225 verbose addTmpTarball already have metadata; skipping unpack for uglify-js@3.0.27
+226 verbose correctMkdir /Users/travisbatts/.npm correctMkdir not in flight; initializing
+227 silly cache afterAdd uglify-js@3.0.27
+228 verbose afterAdd /Users/travisbatts/.npm/uglify-js/3.0.27/package/package.json not in flight; writing
+229 verbose correctMkdir /Users/travisbatts/.npm correctMkdir not in flight; initializing
+230 verbose afterAdd /Users/travisbatts/.npm/uglify-js/3.0.27/package/package.json written
+231 silly fetchNamedPackageData commander
+232 silly mapToRegistry name commander
+233 silly mapToRegistry using default registry
+234 silly mapToRegistry registry https://registry.npmjs.org/
+235 silly mapToRegistry data Result {
+235 silly mapToRegistry   raw: 'commander',
+235 silly mapToRegistry   scope: null,
+235 silly mapToRegistry   escapedName: 'commander',
+235 silly mapToRegistry   name: 'commander',
+235 silly mapToRegistry   rawSpec: '',
+235 silly mapToRegistry   spec: 'latest',
+235 silly mapToRegistry   type: 'tag' }
+236 silly mapToRegistry uri https://registry.npmjs.org/commander
+237 silly fetchNamedPackageData source-map
+238 silly mapToRegistry name source-map
+239 silly mapToRegistry using default registry
+240 silly mapToRegistry registry https://registry.npmjs.org/
+241 silly mapToRegistry data Result {
+241 silly mapToRegistry   raw: 'source-map',
+241 silly mapToRegistry   scope: null,
+241 silly mapToRegistry   escapedName: 'source-map',
+241 silly mapToRegistry   name: 'source-map',
+241 silly mapToRegistry   rawSpec: '',
+241 silly mapToRegistry   spec: 'latest',
+241 silly mapToRegistry   type: 'tag' }
+242 silly mapToRegistry uri https://registry.npmjs.org/source-map
+243 verbose request uri https://registry.npmjs.org/source-map
+244 verbose request no auth needed
+245 info attempt registry request try #1 at 8:54:00 PM
+246 verbose etag W/"58d565f8-25272"
+247 verbose lastModified Fri, 24 Mar 2017 18:31:20 GMT
+248 http request GET https://registry.npmjs.org/source-map
+249 verbose request uri https://registry.npmjs.org/commander
+250 verbose request no auth needed
+251 info attempt registry request try #1 at 8:54:00 PM
+252 verbose etag W/"58dbae26-1013a"
+253 verbose lastModified Wed, 29 Mar 2017 12:52:54 GMT
+254 http request GET https://registry.npmjs.org/commander
+255 http 200 https://registry.npmjs.org/source-map
+256 verbose headers { server: 'nginx/1.10.1',
+256 verbose headers   'content-type': 'application/json',
+256 verbose headers   'last-modified': 'Mon, 17 Jul 2017 17:52:11 GMT',
+256 verbose headers   etag: 'W/"596cf94b-252b1"',
+256 verbose headers   'content-encoding': 'gzip',
+256 verbose headers   'cache-control': 'max-age=300',
+256 verbose headers   'content-length': '13484',
+256 verbose headers   'accept-ranges': 'bytes',
+256 verbose headers   date: 'Sat, 19 Aug 2017 00:54:00 GMT',
+256 verbose headers   via: '1.1 varnish',
+256 verbose headers   age: '63',
+256 verbose headers   connection: 'keep-alive',
+256 verbose headers   'x-served-by': 'cache-dca17748-DCA',
+256 verbose headers   'x-cache': 'HIT',
+256 verbose headers   'x-cache-hits': '1',
+256 verbose headers   'x-timer': 'S1503104040.447765,VS0,VE0',
+256 verbose headers   vary: 'Accept-Encoding, Accept' }
+257 silly get cb [ 200,
+257 silly get   { server: 'nginx/1.10.1',
+257 silly get     'content-type': 'application/json',
+257 silly get     'last-modified': 'Mon, 17 Jul 2017 17:52:11 GMT',
+257 silly get     etag: 'W/"596cf94b-252b1"',
+257 silly get     'content-encoding': 'gzip',
+257 silly get     'cache-control': 'max-age=300',
+257 silly get     'content-length': '13484',
+257 silly get     'accept-ranges': 'bytes',
+257 silly get     date: 'Sat, 19 Aug 2017 00:54:00 GMT',
+257 silly get     via: '1.1 varnish',
+257 silly get     age: '63',
+257 silly get     connection: 'keep-alive',
+257 silly get     'x-served-by': 'cache-dca17748-DCA',
+257 silly get     'x-cache': 'HIT',
+257 silly get     'x-cache-hits': '1',
+257 silly get     'x-timer': 'S1503104040.447765,VS0,VE0',
+257 silly get     vary: 'Accept-Encoding, Accept' } ]
+258 verbose get saving source-map to /Users/travisbatts/.npm/registry.npmjs.org/source-map/.cache.json
+259 verbose correctMkdir /Users/travisbatts/.npm correctMkdir not in flight; initializing
+260 http 200 https://registry.npmjs.org/commander
+261 verbose headers { server: 'nginx/1.10.1',
+261 verbose headers   'content-type': 'application/json',
+261 verbose headers   'last-modified': 'Fri, 18 Aug 2017 15:52:27 GMT',
+261 verbose headers   etag: 'W/"59970d3b-114be"',
+261 verbose headers   'content-encoding': 'gzip',
+261 verbose headers   'cache-control': 'max-age=300',
+261 verbose headers   'content-length': '14173',
+261 verbose headers   'accept-ranges': 'bytes',
+261 verbose headers   date: 'Sat, 19 Aug 2017 00:54:00 GMT',
+261 verbose headers   via: '1.1 varnish',
+261 verbose headers   age: '106',
+261 verbose headers   connection: 'keep-alive',
+261 verbose headers   'x-served-by': 'cache-dca17727-DCA',
+261 verbose headers   'x-cache': 'HIT',
+261 verbose headers   'x-cache-hits': '1',
+261 verbose headers   'x-timer': 'S1503104040.454544,VS0,VE1',
+261 verbose headers   vary: 'Accept-Encoding, Accept' }
+262 silly get cb [ 200,
+262 silly get   { server: 'nginx/1.10.1',
+262 silly get     'content-type': 'application/json',
+262 silly get     'last-modified': 'Fri, 18 Aug 2017 15:52:27 GMT',
+262 silly get     etag: 'W/"59970d3b-114be"',
+262 silly get     'content-encoding': 'gzip',
+262 silly get     'cache-control': 'max-age=300',
+262 silly get     'content-length': '14173',
+262 silly get     'accept-ranges': 'bytes',
+262 silly get     date: 'Sat, 19 Aug 2017 00:54:00 GMT',
+262 silly get     via: '1.1 varnish',
+262 silly get     age: '106',
+262 silly get     connection: 'keep-alive',
+262 silly get     'x-served-by': 'cache-dca17727-DCA',
+262 silly get     'x-cache': 'HIT',
+262 silly get     'x-cache-hits': '1',
+262 silly get     'x-timer': 'S1503104040.454544,VS0,VE1',
+262 silly get     vary: 'Accept-Encoding, Accept' } ]
+263 verbose get saving commander to /Users/travisbatts/.npm/registry.npmjs.org/commander/.cache.json
+264 verbose correctMkdir /Users/travisbatts/.npm correctMkdir not in flight; initializing
+265 silly resolveWithNewModule source-map@0.5.6 checking installable status
+266 silly cache add args [ 'source-map@~0.5.1', null ]
+267 verbose cache add spec source-map@~0.5.1
+268 silly cache add parsed spec Result {
+268 silly cache add   raw: 'source-map@~0.5.1',
+268 silly cache add   scope: null,
+268 silly cache add   escapedName: 'source-map',
+268 silly cache add   name: 'source-map',
+268 silly cache add   rawSpec: '~0.5.1',
+268 silly cache add   spec: '>=0.5.1 <0.6.0',
+268 silly cache add   type: 'range' }
+269 silly addNamed source-map@>=0.5.1 <0.6.0
+270 verbose addNamed ">=0.5.1 <0.6.0" is a valid semver range for source-map
+271 silly addNameRange { name: 'source-map', range: '>=0.5.1 <0.6.0', hasData: false }
+272 silly mapToRegistry name source-map
+273 silly mapToRegistry using default registry
+274 silly mapToRegistry registry https://registry.npmjs.org/
+275 silly mapToRegistry data Result {
+275 silly mapToRegistry   raw: 'source-map',
+275 silly mapToRegistry   scope: null,
+275 silly mapToRegistry   escapedName: 'source-map',
+275 silly mapToRegistry   name: 'source-map',
+275 silly mapToRegistry   rawSpec: '',
+275 silly mapToRegistry   spec: 'latest',
+275 silly mapToRegistry   type: 'tag' }
+276 silly mapToRegistry uri https://registry.npmjs.org/source-map
+277 verbose addNameRange registry:https://registry.npmjs.org/source-map not in flight; fetching
+278 verbose get https://registry.npmjs.org/source-map not expired, no request
+279 silly addNameRange number 2 { name: 'source-map', range: '>=0.5.1 <0.6.0', hasData: true }
+280 silly addNameRange versions [ 'source-map',
+280 silly addNameRange   [ '0.0.0',
+280 silly addNameRange     '0.1.0',
+280 silly addNameRange     '0.1.1',
+280 silly addNameRange     '0.1.2',
+280 silly addNameRange     '0.1.3',
+280 silly addNameRange     '0.1.4',
+280 silly addNameRange     '0.1.5',
+280 silly addNameRange     '0.1.6',
+280 silly addNameRange     '0.1.7',
+280 silly addNameRange     '0.1.8',
+280 silly addNameRange     '0.1.9',
+280 silly addNameRange     '0.1.10',
+280 silly addNameRange     '0.1.11',
+280 silly addNameRange     '0.1.12',
+280 silly addNameRange     '0.1.13',
+280 silly addNameRange     '0.1.14',
+280 silly addNameRange     '0.1.15',
+280 silly addNameRange     '0.1.16',
+280 silly addNameRange     '0.1.17',
+280 silly addNameRange     '0.1.18',
+280 silly addNameRange     '0.1.19',
+280 silly addNameRange     '0.1.20',
+280 silly addNameRange     '0.1.21',
+280 silly addNameRange     '0.1.22',
+280 silly addNameRange     '0.1.23',
+280 silly addNameRange     '0.1.24',
+280 silly addNameRange     '0.1.25',
+280 silly addNameRange     '0.1.26',
+280 silly addNameRange     '0.1.27',
+280 silly addNameRange     '0.1.28',
+280 silly addNameRange     '0.1.29',
+280 silly addNameRange     '0.1.30',
+280 silly addNameRange     '0.1.31',
+280 silly addNameRange     '0.1.32',
+280 silly addNameRange     '0.1.33',
+280 silly addNameRange     '0.1.34',
+280 silly addNameRange     '0.1.35',
+280 silly addNameRange     '0.1.36',
+280 silly addNameRange     '0.1.37',
+280 silly addNameRange     '0.1.38',
+280 silly addNameRange     '0.1.39',
+280 silly addNameRange     '0.1.40',
+280 silly addNameRange     '0.1.41',
+280 silly addNameRange     '0.1.42',
+280 silly addNameRange     '0.1.43',
+280 silly addNameRange     '0.2.0',
+280 silly addNameRange     '0.3.0',
+280 silly addNameRange     '0.4.0',
+280 silly addNameRange     '0.4.1',
+280 silly addNameRange     '0.4.2',
+280 silly addNameRange     '0.4.3',
+280 silly addNameRange     '0.4.4',
+280 silly addNameRange     '0.5.0',
+280 silly addNameRange     '0.5.1',
+280 silly addNameRange     '0.5.2',
+280 silly addNameRange     '0.5.3',
+280 silly addNameRange     '0.5.4',
+280 silly addNameRange     '0.5.5',
+280 silly addNameRange     '0.5.6' ] ]
+281 silly addNamed source-map@0.5.6
+282 verbose addNamed "0.5.6" is a plain semver version for source-map
+283 silly resolveWithNewModule commander@2.11.0 checking installable status
+284 silly cache add args [ 'commander@~2.11.0', null ]
+285 verbose cache add spec commander@~2.11.0
+286 silly cache add parsed spec Result {
+286 silly cache add   raw: 'commander@~2.11.0',
+286 silly cache add   scope: null,
+286 silly cache add   escapedName: 'commander',
+286 silly cache add   name: 'commander',
+286 silly cache add   rawSpec: '~2.11.0',
+286 silly cache add   spec: '>=2.11.0 <2.12.0',
+286 silly cache add   type: 'range' }
+287 silly addNamed commander@>=2.11.0 <2.12.0
+288 verbose addNamed ">=2.11.0 <2.12.0" is a valid semver range for commander
+289 silly addNameRange { name: 'commander', range: '>=2.11.0 <2.12.0', hasData: false }
+290 silly mapToRegistry name commander
+291 silly mapToRegistry using default registry
+292 silly mapToRegistry registry https://registry.npmjs.org/
+293 silly mapToRegistry data Result {
+293 silly mapToRegistry   raw: 'commander',
+293 silly mapToRegistry   scope: null,
+293 silly mapToRegistry   escapedName: 'commander',
+293 silly mapToRegistry   name: 'commander',
+293 silly mapToRegistry   rawSpec: '',
+293 silly mapToRegistry   spec: 'latest',
+293 silly mapToRegistry   type: 'tag' }
+294 silly mapToRegistry uri https://registry.npmjs.org/commander
+295 verbose addNameRange registry:https://registry.npmjs.org/commander not in flight; fetching
+296 verbose get https://registry.npmjs.org/commander not expired, no request
+297 silly addNameRange number 2 { name: 'commander', range: '>=2.11.0 <2.12.0', hasData: true }
+298 silly addNameRange versions [ 'commander',
+298 silly addNameRange   [ '0.0.1',
+298 silly addNameRange     '0.0.3',
+298 silly addNameRange     '0.0.4',
+298 silly addNameRange     '0.0.5',
+298 silly addNameRange     '0.1.0',
+298 silly addNameRange     '0.2.0',
+298 silly addNameRange     '0.2.1',
+298 silly addNameRange     '0.3.0',
+298 silly addNameRange     '0.3.1',
+298 silly addNameRange     '0.3.2',
+298 silly addNameRange     '0.3.3',
+298 silly addNameRange     '0.4.0',
+298 silly addNameRange     '0.4.1',
+298 silly addNameRange     '0.4.2',
+298 silly addNameRange     '0.4.3',
+298 silly addNameRange     '0.5.0',
+298 silly addNameRange     '0.5.1',
+298 silly addNameRange     '0.6.0',
+298 silly addNameRange     '0.6.1',
+298 silly addNameRange     '0.5.2',
+298 silly addNameRange     '1.0.0',
+298 silly addNameRange     '1.0.1',
+298 silly addNameRange     '1.0.2',
+298 silly addNameRange     '1.0.3',
+298 silly addNameRange     '1.0.4',
+298 silly addNameRange     '1.0.5',
+298 silly addNameRange     '1.1.0',
+298 silly addNameRange     '1.1.1',
+298 silly addNameRange     '1.2.0',
+298 silly addNameRange     '1.3.0',
+298 silly addNameRange     '1.3.1',
+298 silly addNameRange     '1.3.2',
+298 silly addNameRange     '2.0.0',
+298 silly addNameRange     '2.1.0',
+298 silly addNameRange     '2.2.0',
+298 silly addNameRange     '2.3.0',
+298 silly addNameRange     '2.4.0',
+298 silly addNameRange     '2.5.0',
+298 silly addNameRange     '2.5.1',
+298 silly addNameRange     '2.6.0',
+298 silly addNameRange     '2.7.0',
+298 silly addNameRange     '2.7.1',
+298 silly addNameRange     '2.8.0',
+298 silly addNameRange     '2.8.1',
+298 silly addNameRange     '2.9.0',
+298 silly addNameRange     '2.10.0',
+298 silly addNameRange     '2.11.0' ] ]
+299 silly addNamed commander@2.11.0
+300 verbose addNamed "2.11.0" is a plain semver version for commander
+301 silly mapToRegistry name commander
+302 silly mapToRegistry using default registry
+303 silly mapToRegistry registry https://registry.npmjs.org/
+304 silly mapToRegistry data Result {
+304 silly mapToRegistry   raw: 'commander',
+304 silly mapToRegistry   scope: null,
+304 silly mapToRegistry   escapedName: 'commander',
+304 silly mapToRegistry   name: 'commander',
+304 silly mapToRegistry   rawSpec: '',
+304 silly mapToRegistry   spec: 'latest',
+304 silly mapToRegistry   type: 'tag' }
+305 silly mapToRegistry uri https://registry.npmjs.org/commander
+306 verbose addRemoteTarball https://registry.npmjs.org/commander/-/commander-2.11.0.tgz not in flight; adding
+307 verbose addRemoteTarball [ 'https://registry.npmjs.org/commander/-/commander-2.11.0.tgz',
+307 verbose addRemoteTarball   '157152fd1e7a6c8d98a5b715cf376df928004563' ]
+308 silly cache afterAdd source-map@0.5.6
+309 verbose afterAdd /Users/travisbatts/.npm/source-map/0.5.6/package/package.json not in flight; writing
+310 verbose correctMkdir /Users/travisbatts/.npm correctMkdir not in flight; initializing
+311 info retry fetch attempt 1 at 8:54:00 PM
+312 info attempt registry request try #1 at 8:54:00 PM
+313 http fetch GET https://registry.npmjs.org/commander/-/commander-2.11.0.tgz
+314 verbose afterAdd /Users/travisbatts/.npm/source-map/0.5.6/package/package.json written
+315 http fetch 200 https://registry.npmjs.org/commander/-/commander-2.11.0.tgz
+316 silly fetchAndShaCheck shasum 157152fd1e7a6c8d98a5b715cf376df928004563
+317 verbose addTmpTarball /var/folders/_2/p3cqv49s7gjg___jlz7qbn900000gn/T/npm-51773-b0dad06e/registry.npmjs.org/commander/-/commander-2.11.0.tgz not in flight; adding
+318 verbose addTmpTarball already have metadata; skipping unpack for commander@2.11.0
+319 verbose correctMkdir /Users/travisbatts/.npm correctMkdir not in flight; initializing
+320 silly cache afterAdd commander@2.11.0
+321 verbose afterAdd /Users/travisbatts/.npm/commander/2.11.0/package/package.json not in flight; writing
+322 verbose correctMkdir /Users/travisbatts/.npm correctMkdir not in flight; initializing
+323 verbose afterAdd /Users/travisbatts/.npm/commander/2.11.0/package/package.json written
+324 silly loadAllDepsIntoIdealTree Finishing
+325 silly loadIdealTree Finishing
+326 silly currentTree travisbatts
+326 silly currentTree ├── jquery-zoom@1.7.20
+326 silly currentTree └── jquery@3.2.1
+327 silly idealTree travisbatts
+327 silly idealTree ├── argsparser@0.0.7
+327 silly idealTree ├── commander@2.11.0
+327 silly idealTree ├── jquery-zoom@1.7.20
+327 silly idealTree ├── jquery@3.2.1
+327 silly idealTree ├── linter@0.0.7
+327 silly idealTree ├── sharedjs@0.0.2
+327 silly idealTree ├── source-map@0.5.6
+327 silly idealTree └── uglify-js@3.0.27
+328 silly generateActionsToTake Starting
+329 silly install generateActionsToTake
+330 silly generateActionsToTake Finishing
+331 silly diffTrees action count 6
+332 silly diffTrees add argsparser@0.0.7
+333 silly diffTrees add commander@2.11.0
+334 silly diffTrees add source-map@0.5.6
+335 silly diffTrees add uglify-js@3.0.27
+336 silly diffTrees add sharedjs@0.0.2
+337 silly diffTrees add linter@0.0.7
+338 silly decomposeActions action count 48
+339 silly decomposeActions fetch argsparser@0.0.7
+340 silly decomposeActions extract argsparser@0.0.7
+341 silly decomposeActions test argsparser@0.0.7
+342 silly decomposeActions preinstall argsparser@0.0.7
+343 silly decomposeActions build argsparser@0.0.7
+344 silly decomposeActions install argsparser@0.0.7
+345 silly decomposeActions postinstall argsparser@0.0.7
+346 silly decomposeActions finalize argsparser@0.0.7
+347 silly decomposeActions fetch commander@2.11.0
+348 silly decomposeActions extract commander@2.11.0
+349 silly decomposeActions test commander@2.11.0
+350 silly decomposeActions preinstall commander@2.11.0
+351 silly decomposeActions build commander@2.11.0
+352 silly decomposeActions install commander@2.11.0
+353 silly decomposeActions postinstall commander@2.11.0
+354 silly decomposeActions finalize commander@2.11.0
+355 silly decomposeActions fetch source-map@0.5.6
+356 silly decomposeActions extract source-map@0.5.6
+357 silly decomposeActions test source-map@0.5.6
+358 silly decomposeActions preinstall source-map@0.5.6
+359 silly decomposeActions build source-map@0.5.6
+360 silly decomposeActions install source-map@0.5.6
+361 silly decomposeActions postinstall source-map@0.5.6
+362 silly decomposeActions finalize source-map@0.5.6
+363 silly decomposeActions fetch uglify-js@3.0.27
+364 silly decomposeActions extract uglify-js@3.0.27
+365 silly decomposeActions test uglify-js@3.0.27
+366 silly decomposeActions preinstall uglify-js@3.0.27
+367 silly decomposeActions build uglify-js@3.0.27
+368 silly decomposeActions install uglify-js@3.0.27
+369 silly decomposeActions postinstall uglify-js@3.0.27
+370 silly decomposeActions finalize uglify-js@3.0.27
+371 silly decomposeActions fetch sharedjs@0.0.2
+372 silly decomposeActions extract sharedjs@0.0.2
+373 silly decomposeActions test sharedjs@0.0.2
+374 silly decomposeActions preinstall sharedjs@0.0.2
+375 silly decomposeActions build sharedjs@0.0.2
+376 silly decomposeActions install sharedjs@0.0.2
+377 silly decomposeActions postinstall sharedjs@0.0.2
+378 silly decomposeActions finalize sharedjs@0.0.2
+379 silly decomposeActions fetch linter@0.0.7
+380 silly decomposeActions extract linter@0.0.7
+381 silly decomposeActions test linter@0.0.7
+382 silly decomposeActions preinstall linter@0.0.7
+383 silly decomposeActions build linter@0.0.7
+384 silly decomposeActions install linter@0.0.7
+385 silly decomposeActions postinstall linter@0.0.7
+386 silly decomposeActions finalize linter@0.0.7
+387 silly runTopLevelLifecycles Starting
+388 silly executeActions Starting
+389 silly install executeActions
+390 silly doSerial global-install 0
+391 silly doParallel fetch 6
+392 verbose correctMkdir /Users/travisbatts/.npm/_locks correctMkdir not in flight; initializing
+393 verbose lock using /Users/travisbatts/.npm/_locks/staging-d0b57d3c7fb320d4.lock for /Users/travisbatts/node_modules/.staging
+394 silly doParallel extract 6
+395 silly extract argsparser@0.0.7
+396 silly extract commander@2.11.0
+397 silly extract source-map@0.5.6
+398 silly extract uglify-js@3.0.27
+399 silly extract sharedjs@0.0.2
+400 silly extract linter@0.0.7
+401 verbose unbuild node_modules/.staging/argsparser-83abfc6a
+402 verbose unbuild node_modules/.staging/commander-2e30849e
+403 verbose unbuild node_modules/.staging/source-map-e6e65ad0
+404 verbose unbuild node_modules/.staging/sharedjs-0de5489a
+405 verbose unbuild node_modules/.staging/uglify-js-52e5985f
+406 verbose unbuild node_modules/.staging/linter-872e20e6
+407 silly gentlyRm /Users/travisbatts/node_modules/.staging/argsparser-83abfc6a is being purged from base /Users/travisbatts
+408 verbose gentlyRm don't care about contents; nuking /Users/travisbatts/node_modules/.staging/argsparser-83abfc6a
+409 silly gentlyRm /Users/travisbatts/node_modules/.staging/commander-2e30849e is being purged from base /Users/travisbatts
+410 verbose gentlyRm don't care about contents; nuking /Users/travisbatts/node_modules/.staging/commander-2e30849e
+411 silly gentlyRm /Users/travisbatts/node_modules/.staging/source-map-e6e65ad0 is being purged from base /Users/travisbatts
+412 verbose gentlyRm don't care about contents; nuking /Users/travisbatts/node_modules/.staging/source-map-e6e65ad0
+413 silly gentlyRm /Users/travisbatts/node_modules/.staging/sharedjs-0de5489a is being purged from base /Users/travisbatts
+414 verbose gentlyRm don't care about contents; nuking /Users/travisbatts/node_modules/.staging/sharedjs-0de5489a
+415 verbose tar unpack /Users/travisbatts/.npm/argsparser/0.0.7/package.tgz
+416 verbose tar unpacking to /Users/travisbatts/node_modules/.staging/argsparser-83abfc6a
+417 silly gentlyRm /Users/travisbatts/node_modules/.staging/argsparser-83abfc6a is being purged
+418 verbose gentlyRm don't care about contents; nuking /Users/travisbatts/node_modules/.staging/argsparser-83abfc6a
+419 verbose tar unpack /Users/travisbatts/.npm/commander/2.11.0/package.tgz
+420 verbose tar unpacking to /Users/travisbatts/node_modules/.staging/commander-2e30849e
+421 silly gentlyRm /Users/travisbatts/node_modules/.staging/commander-2e30849e is being purged
+422 verbose gentlyRm don't care about contents; nuking /Users/travisbatts/node_modules/.staging/commander-2e30849e
+423 verbose tar unpack /Users/travisbatts/.npm/source-map/0.5.6/package.tgz
+424 verbose tar unpacking to /Users/travisbatts/node_modules/.staging/source-map-e6e65ad0
+425 silly gentlyRm /Users/travisbatts/node_modules/.staging/source-map-e6e65ad0 is being purged
+426 verbose gentlyRm don't care about contents; nuking /Users/travisbatts/node_modules/.staging/source-map-e6e65ad0
+427 silly gentlyRm /Users/travisbatts/node_modules/.staging/uglify-js-52e5985f is being purged from base /Users/travisbatts
+428 verbose gentlyRm don't care about contents; nuking /Users/travisbatts/node_modules/.staging/uglify-js-52e5985f
+429 verbose tar unpack /Users/travisbatts/.npm/sharedjs/0.0.2/package.tgz
+430 verbose tar unpacking to /Users/travisbatts/node_modules/.staging/sharedjs-0de5489a
+431 silly gentlyRm /Users/travisbatts/node_modules/.staging/sharedjs-0de5489a is being purged
+432 verbose gentlyRm don't care about contents; nuking /Users/travisbatts/node_modules/.staging/sharedjs-0de5489a
+433 silly gentlyRm /Users/travisbatts/node_modules/.staging/linter-872e20e6 is being purged from base /Users/travisbatts
+434 verbose gentlyRm don't care about contents; nuking /Users/travisbatts/node_modules/.staging/linter-872e20e6
+435 silly gunzTarPerm modes [ '755', '644' ]
+436 silly gunzTarPerm modes [ '755', '644' ]
+437 silly gunzTarPerm modes [ '755', '644' ]
+438 verbose tar unpack /Users/travisbatts/.npm/uglify-js/3.0.27/package.tgz
+439 verbose tar unpacking to /Users/travisbatts/node_modules/.staging/uglify-js-52e5985f
+440 silly gentlyRm /Users/travisbatts/node_modules/.staging/uglify-js-52e5985f is being purged
+441 verbose gentlyRm don't care about contents; nuking /Users/travisbatts/node_modules/.staging/uglify-js-52e5985f
+442 silly gunzTarPerm modes [ '755', '644' ]
+443 verbose tar unpack /Users/travisbatts/.npm/linter/0.0.7/package.tgz
+444 verbose tar unpacking to /Users/travisbatts/node_modules/.staging/linter-872e20e6
+445 silly gentlyRm /Users/travisbatts/node_modules/.staging/linter-872e20e6 is being purged
+446 verbose gentlyRm don't care about contents; nuking /Users/travisbatts/node_modules/.staging/linter-872e20e6
+447 silly gunzTarPerm modes [ '755', '644' ]
+448 silly gunzTarPerm modes [ '755', '644' ]
+449 silly gunzTarPerm extractEntry package.json
+450 silly gunzTarPerm extractEntry package.json
+451 silly gunzTarPerm extractEntry package.json
+452 silly gunzTarPerm extractEntry
+453 silly gunzTarPerm extractEntry package.json
+454 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+455 silly gunzTarPerm extractEntry
+456 silly gunzTarPerm extractEntry .npmignore
+457 silly gunzTarPerm extractEntry LICENSE
+458 silly gunzTarPerm extractEntry LICENSE
+459 silly gunzTarPerm extractEntry index.js
+460 silly gunzTarPerm extractEntry README.md
+461 silly gunzTarPerm extractEntry README.md
+462 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+463 silly gunzTarPerm extractEntry LICENSE
+464 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+465 silly gunzTarPerm extractEntry LICENSE
+466 silly gunzTarPerm extractEntry .gitmodules
+467 silly gunzTarPerm extractEntry bin/
+468 silly gunzTarPerm extractEntry deps/
+469 silly gunzTarPerm extractEntry .gitignore
+470 silly gunzTarPerm extractEntry .gitmodules
+471 silly gunzTarPerm extractEntry bin/
+472 silly gunzTarPerm extractEntry index.js
+473 silly gunzTarPerm extractEntry lib/
+474 silly gunzTarPerm extractEntry conf/
+475 silly gunzTarPerm extractEntry deps/
+476 silly gunzTarPerm extractEntry index.js
+477 silly gunzTarPerm extractEntry Makefile
+478 silly gunzTarPerm extractEntry Readme.md
+479 silly gunzTarPerm extractEntry source-map.js
+480 silly gunzTarPerm extractEntry lib/array-set.js
+481 silly gunzTarPerm extractEntry lib/base64-vlq.js
+482 silly gunzTarPerm extractEntry bin/uglifyjs
+483 silly gunzTarPerm modified mode [ 'bin/uglifyjs', 438, 420 ]
+484 silly gunzTarPerm extractEntry lib/ast.js
+485 silly gunzTarPerm modified mode [ 'lib/ast.js', 438, 420 ]
+486 silly gunzTarPerm extractEntry lib/minify.js
+487 silly gunzTarPerm modified mode [ 'lib/minify.js', 438, 420 ]
+488 silly gunzTarPerm extractEntry lib/base64.js
+489 silly gunzTarPerm extractEntry lib/mozilla-ast.js
+490 silly gunzTarPerm modified mode [ 'lib/mozilla-ast.js', 438, 420 ]
+491 silly gunzTarPerm extractEntry lib/output.js
+492 silly gunzTarPerm modified mode [ 'lib/output.js', 438, 420 ]
+493 silly gunzTarPerm extractEntry Makefile
+494 silly gunzTarPerm extractEntry package.json
+495 silly gunzTarPerm extractEntry readme.md
+496 silly gunzTarPerm extractEntry index.js
+497 silly gunzTarPerm extractEntry lib/
+498 silly gunzTarPerm extractEntry lib/argsparser.js
+499 silly gunzTarPerm extractEntry readme.md
+500 silly gunzTarPerm extractEntry History.md
+501 silly gunzTarPerm extractEntry src/
+502 silly gunzTarPerm extractEntry test/
+503 silly gunzTarPerm extractEntry test/bind.js
+504 silly gunzTarPerm extractEntry lib/binary-search.js
+505 silly gunzTarPerm extractEntry lib/mapping-list.js
+506 silly gunzTarPerm extractEntry lib/compress.js
+507 silly gunzTarPerm modified mode [ 'lib/compress.js', 438, 420 ]
+508 silly gunzTarPerm extractEntry Makefile
+509 silly gunzTarPerm extractEntry package.json
+510 silly gunzTarPerm extractEntry readme.md
+511 silly gunzTarPerm extractEntry test/test.js
+512 silly gunzTarPerm extractEntry test/each.js
+513 silly gunzTarPerm extractEntry test/extend.js
+514 silly gunzTarPerm extractEntry test/
+515 silly gunzTarPerm extractEntry test/fixtures/
+516 silly gunzTarPerm extractEntry test/test.js
+517 silly gunzTarPerm extractEntry lib/quick-sort.js
+518 silly gunzTarPerm extractEntry lib/source-map-consumer.js
+519 silly gunzTarPerm extractEntry lib/propmangle.js
+520 silly gunzTarPerm modified mode [ 'lib/propmangle.js', 438, 420 ]
+521 silly gunzTarPerm extractEntry test/index.html
+522 silly gunzTarPerm extractEntry test/inherits.js
+523 silly gunzTarPerm extractEntry test/fixtures/closure-compiler.js
+524 silly gunzTarPerm extractEntry test/fixtures/closure-compiler.json
+525 silly gunzTarPerm extractEntry lib/source-map-generator.js
+526 silly gunzTarPerm extractEntry lib/source-node.js
+527 silly gunzTarPerm extractEntry test/toArray.js
+528 silly gunzTarPerm extractEntry test/trim.js
+529 silly gunzTarPerm extractEntry lib/scope.js
+530 silly gunzTarPerm modified mode [ 'lib/scope.js', 438, 420 ]
+531 silly gunzTarPerm extractEntry lib/sourcemap.js
+532 silly gunzTarPerm modified mode [ 'lib/sourcemap.js', 438, 420 ]
+533 silly gunzTarPerm extractEntry lib/transform.js
+534 silly gunzTarPerm modified mode [ 'lib/transform.js', 438, 420 ]
+535 silly gunzTarPerm extractEntry test/fixtures/closure-linter.js
+536 silly gunzTarPerm extractEntry test/fixtures/closure-linter.json
+537 silly gunzTarPerm extractEntry lib/utils.js
+538 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+539 silly gunzTarPerm extractEntry lib/util.js
+540 silly gunzTarPerm extractEntry dist/source-map.debug.js
+541 silly gunzTarPerm extractEntry test/type.js
+542 silly gunzTarPerm extractEntry test/validate.js
+543 silly gunzTarPerm extractEntry test/fixtures/javascriptlint.js
+544 silly gunzTarPerm extractEntry test/fixtures/javascriptlint.json
+545 silly gunzTarPerm extractEntry test/fixtures/jslint.js
+546 silly gunzTarPerm extractEntry lib/parse.js
+547 silly gunzTarPerm modified mode [ 'lib/parse.js', 438, 420 ]
+548 silly gunzTarPerm extractEntry tools/exports.js
+549 silly gunzTarPerm modified mode [ 'tools/exports.js', 438, 420 ]
+550 silly gunzTarPerm extractEntry tools/node.js
+551 silly gunzTarPerm modified mode [ 'tools/node.js', 438, 420 ]
+552 silly gunzTarPerm extractEntry tools/domprops.json
+553 silly gunzTarPerm modified mode [ 'tools/domprops.json', 438, 420 ]
+554 silly gunzTarPerm extractEntry tools/props.html
+555 silly gunzTarPerm modified mode [ 'tools/props.html', 438, 420 ]
+556 silly gunzTarPerm extractEntry test/fixtures/jslint.json
+557 silly gunzTarPerm extractEntry test/fixtures/subfolder/
+558 silly gunzTarPerm extractEntry test/validate.methods.js
+559 silly gunzTarPerm extractEntry src/bind.js
+560 silly gentlyRm /Users/travisbatts/node_modules/.staging/commander-2e30849e/node_modules is being purged
+561 verbose gentlyRm don't care about contents; nuking /Users/travisbatts/node_modules/.staging/commander-2e30849e/node_modules
+562 silly gunzTarPerm extractEntry test/fixtures/subfolder/jslint.js
+563 silly gunzTarPerm extractEntry lib/linter/
+564 silly gunzTarPerm extractEntry src/each.js
+565 silly gunzTarPerm extractEntry src/env.js
+566 silly gunzTarPerm extractEntry src/error.js
+567 silly gunzTarPerm extractEntry dist/source-map.js
+568 silly gunzTarPerm extractEntry src/extend.js
+569 silly gunzTarPerm extractEntry src/filter.js
+570 silly gunzTarPerm extractEntry src/indexOf.js
+571 silly gunzTarPerm extractEntry lib/linter.js
+572 silly gunzTarPerm extractEntry lib/linter/closure-compiler.js
+573 silly gunzTarPerm extractEntry dist/source-map.min.js
+574 silly gunzTarPerm extractEntry src/inherits.js
+575 silly gunzTarPerm extractEntry src/intro.js
+576 silly gunzTarPerm extractEntry lib/linter/closure-linter.js
+577 silly gunzTarPerm extractEntry lib/linter/javascriptlint.js
+578 silly gunzTarPerm extractEntry lib/linter/jslint.js
+579 silly gentlyRm /Users/travisbatts/node_modules/.staging/argsparser-83abfc6a/node_modules is being purged
+580 verbose gentlyRm don't care about contents; nuking /Users/travisbatts/node_modules/.staging/argsparser-83abfc6a/node_modules
+581 silly gunzTarPerm extractEntry dist/source-map.min.js.map
+582 silly gunzTarPerm extractEntry src/lastIndexOf.js
+583 silly gunzTarPerm extractEntry src/map.js
+584 silly gunzTarPerm extractEntry deps/closure-compiler/
+585 silly gunzTarPerm extractEntry deps/closure-linter/
+586 silly gunzTarPerm extractEntry deps/javascriptlint/
+587 silly gunzTarPerm extractEntry deps/JSLint/
+588 silly gunzTarPerm extractEntry deps/JSLint/fullinit_ui.js
+589 silly gunzTarPerm extractEntry src/noop.js
+590 silly gunzTarPerm extractEntry src/now.js
+591 silly gunzTarPerm extractEntry CHANGELOG.md
+592 silly gunzTarPerm extractEntry deps/JSLint/fulljslint.html
+593 silly gunzTarPerm extractEntry deps/JSLint/fulljslint.js
+594 silly gunzTarPerm extractEntry src/outro.js
+595 silly gunzTarPerm extractEntry src/querystring.js
+596 silly gunzTarPerm extractEntry deps/JSLint/intercept.js
+597 silly gunzTarPerm extractEntry deps/JSLint/lint.html
+598 silly gunzTarPerm extractEntry src/toArray.js
+599 silly gunzTarPerm extractEntry src/trim.js
+600 silly gunzTarPerm extractEntry deps/JSLint/README
+601 silly gunzTarPerm extractEntry deps/javascriptlint/jsl
+602 silly gunzTarPerm extractEntry src/type.js
+603 silly gunzTarPerm extractEntry src/validate.js
+604 silly gunzTarPerm extractEntry src/validate.methods.js
+605 silly gunzTarPerm extractEntry lib/sharedjs.js
+606 silly gunzTarPerm extractEntry lib/sharedjs.min.js
+607 silly gunzTarPerm extractEntry deps/qunit/
+608 silly gunzTarPerm extractEntry deps/qunit/.gitignore
+609 silly gunzTarPerm extractEntry deps/qunit/package.json
+610 silly gunzTarPerm extractEntry deps/qunit/qunit/
+611 silly gunzTarPerm extractEntry deps/qunit/README.md
+612 silly gunzTarPerm extractEntry deps/javascriptlint/jsl-test.js
+613 silly gunzTarPerm extractEntry deps/qunit/test/
+614 silly gunzTarPerm extractEntry deps/qunit/test/headless.html
+615 silly gunzTarPerm extractEntry deps/javascriptlint/jsl.default.conf
+616 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/
+617 silly gunzTarPerm extractEntry deps/closure-linter/PKG-INFO
+618 silly gunzTarPerm extractEntry deps/closure-linter/README
+619 silly gunzTarPerm extractEntry deps/closure-linter/setup.py
+620 silly gunzTarPerm extractEntry deps/qunit/test/index.html
+621 silly gunzTarPerm extractEntry deps/qunit/test/same.js
+622 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/__init__.py
+623 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/checker.py
+624 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/checkerbase.py
+625 silly gunzTarPerm extractEntry deps/qunit/test/test.js
+626 silly gunzTarPerm extractEntry deps/qunit/qunit/qunit.css
+627 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/common/
+628 silly gunzTarPerm extractEntry deps/qunit/qunit/qunit.js
+629 silly gunzTarPerm extractEntry bin/build.js
+630 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/ecmalintrules.py
+631 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/ecmametadatapass.py
+632 silly gunzTarPerm extractEntry bin/deps.json
+633 silly gunzTarPerm extractEntry bin/test.js
+634 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/error_fixer.py
+635 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/errorrules.py
+636 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/errors.py
+637 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/fixjsstyle.py
+638 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/fixjsstyle_test.py
+639 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/full_test.py
+640 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/gjslint.py
+641 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/indentation.py
+642 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/javascriptlintrules.py
+643 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/javascriptstatetracker.py
+644 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/javascriptstatetracker_test.py
+645 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/javascripttokenizer.py
+646 silly gentlyRm /Users/travisbatts/node_modules/.staging/uglify-js-52e5985f/node_modules is being purged
+647 verbose gentlyRm don't care about contents; nuking /Users/travisbatts/node_modules/.staging/uglify-js-52e5985f/node_modules
+648 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/javascripttokens.py
+649 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/statetracker.py
+650 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/tokenutil.py
+651 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/common/__init__.py
+652 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/common/error.py
+653 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/common/erroraccumulator.py
+654 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/common/errorhandler.py
+655 silly gentlyRm /Users/travisbatts/node_modules/.staging/source-map-e6e65ad0/node_modules is being purged
+656 verbose gentlyRm don't care about contents; nuking /Users/travisbatts/node_modules/.staging/source-map-e6e65ad0/node_modules
+657 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/common/errorprinter.py
+658 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/common/filetestcase.py
+659 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/common/htmlutil.py
+660 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/common/lintrunner.py
+661 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/common/matcher.py
+662 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/common/position.py
+663 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/common/simplefileflags.py
+664 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/common/tokenizer.py
+665 silly gunzTarPerm extractEntry deps/closure-linter/closure_linter/common/tokens.py
+666 silly gunzTarPerm extractEntry deps/closure-compiler/compiler.jar
+667 silly gentlyRm /Users/travisbatts/node_modules/.staging/sharedjs-0de5489a/node_modules is being purged
+668 verbose gentlyRm don't care about contents; nuking /Users/travisbatts/node_modules/.staging/sharedjs-0de5489a/node_modules
+669 silly gunzTarPerm extractEntry deps/closure-compiler/COPYING
+670 silly gunzTarPerm extractEntry deps/closure-compiler/README
+671 silly gunzTarPerm extractEntry conf/client.json
+672 silly gunzTarPerm extractEntry conf/server.json
+673 silly gunzTarPerm extractEntry bin/cli.js
+674 silly gentlyRm /Users/travisbatts/node_modules/.staging/linter-872e20e6/node_modules is being purged
+675 verbose gentlyRm don't care about contents; nuking /Users/travisbatts/node_modules/.staging/linter-872e20e6/node_modules
+676 silly doParallel preinstall 6
+677 silly preinstall argsparser@0.0.7 /Users/travisbatts/node_modules/.staging/argsparser-83abfc6a
+678 info lifecycle argsparser@0.0.7~preinstall: argsparser@0.0.7
+679 silly preinstall commander@2.11.0 /Users/travisbatts/node_modules/.staging/commander-2e30849e
+680 info lifecycle commander@2.11.0~preinstall: commander@2.11.0
+681 silly preinstall source-map@0.5.6 /Users/travisbatts/node_modules/.staging/source-map-e6e65ad0
+682 info lifecycle source-map@0.5.6~preinstall: source-map@0.5.6
+683 silly preinstall uglify-js@3.0.27 /Users/travisbatts/node_modules/.staging/uglify-js-52e5985f
+684 info lifecycle uglify-js@3.0.27~preinstall: uglify-js@3.0.27
+685 silly preinstall sharedjs@0.0.2 /Users/travisbatts/node_modules/.staging/sharedjs-0de5489a
+686 info lifecycle sharedjs@0.0.2~preinstall: sharedjs@0.0.2
+687 silly preinstall linter@0.0.7 /Users/travisbatts/node_modules/.staging/linter-872e20e6
+688 info lifecycle linter@0.0.7~preinstall: linter@0.0.7
+689 silly lifecycle argsparser@0.0.7~preinstall: no script for preinstall, continuing
+690 silly lifecycle commander@2.11.0~preinstall: no script for preinstall, continuing
+691 silly lifecycle source-map@0.5.6~preinstall: no script for preinstall, continuing
+692 silly lifecycle uglify-js@3.0.27~preinstall: no script for preinstall, continuing
+693 silly lifecycle sharedjs@0.0.2~preinstall: no script for preinstall, continuing
+694 silly lifecycle linter@0.0.7~preinstall: no script for preinstall, continuing
+695 silly doReverseSerial remove 0
+696 silly doSerial move 0
+697 silly doSerial finalize 6
+698 silly finalize /Users/travisbatts/node_modules/argsparser
+699 silly finalize /Users/travisbatts/node_modules/commander
+700 silly finalize /Users/travisbatts/node_modules/source-map
+701 silly finalize /Users/travisbatts/node_modules/uglify-js
+702 silly finalize /Users/travisbatts/node_modules/sharedjs
+703 silly finalize /Users/travisbatts/node_modules/linter
+704 silly doSerial build 6
+705 silly build argsparser@0.0.7
+706 info linkStuff argsparser@0.0.7
+707 silly linkStuff argsparser@0.0.7 has /Users/travisbatts/node_modules as its parent node_modules
+708 verbose linkBins argsparser@0.0.7
+709 verbose linkMans argsparser@0.0.7
+710 silly build commander@2.11.0
+711 info linkStuff commander@2.11.0
+712 silly linkStuff commander@2.11.0 has /Users/travisbatts/node_modules as its parent node_modules
+713 verbose linkBins commander@2.11.0
+714 verbose linkMans commander@2.11.0
+715 silly build source-map@0.5.6
+716 info linkStuff source-map@0.5.6
+717 silly linkStuff source-map@0.5.6 has /Users/travisbatts/node_modules as its parent node_modules
+718 verbose linkBins source-map@0.5.6
+719 verbose linkMans source-map@0.5.6
+720 silly build uglify-js@3.0.27
+721 info linkStuff uglify-js@3.0.27
+722 silly linkStuff uglify-js@3.0.27 has /Users/travisbatts/node_modules as its parent node_modules
+723 verbose linkBins uglify-js@3.0.27
+724 verbose link bins [ { uglifyjs: 'bin/uglifyjs' },
+724 verbose link bins   '/Users/travisbatts/node_modules/.bin',
+724 verbose link bins   false ]
+725 verbose linkMans uglify-js@3.0.27
+726 silly gentlyRm /Users/travisbatts/node_modules/.bin/uglifyjs is being purged
+727 verbose gentlyRm don't care about contents; nuking /Users/travisbatts/node_modules/.bin/uglifyjs
+728 silly build sharedjs@0.0.2
+729 info linkStuff sharedjs@0.0.2
+730 silly linkStuff sharedjs@0.0.2 has /Users/travisbatts/node_modules as its parent node_modules
+731 verbose linkBins sharedjs@0.0.2
+732 verbose link bins [ {}, '/Users/travisbatts/node_modules/.bin', false ]
+733 verbose linkMans sharedjs@0.0.2
+734 silly build linter@0.0.7
+735 info linkStuff linter@0.0.7
+736 silly linkStuff linter@0.0.7 has /Users/travisbatts/node_modules as its parent node_modules
+737 verbose linkBins linter@0.0.7
+738 verbose link bins [ { linter: './bin/cli.js' },
+738 verbose link bins   '/Users/travisbatts/node_modules/.bin',
+738 verbose link bins   false ]
+739 verbose linkMans linter@0.0.7
+740 silly gentlyRm /Users/travisbatts/node_modules/.bin/linter is being purged
+741 verbose gentlyRm don't care about contents; nuking /Users/travisbatts/node_modules/.bin/linter
+742 silly doSerial global-link 0
+743 silly doParallel update-linked 0
+744 silly doSerial install 6
+745 silly install argsparser@0.0.7 /Users/travisbatts/node_modules/.staging/argsparser-83abfc6a
+746 info lifecycle argsparser@0.0.7~install: argsparser@0.0.7
+747 silly lifecycle argsparser@0.0.7~install: no script for install, continuing
+748 silly install commander@2.11.0 /Users/travisbatts/node_modules/.staging/commander-2e30849e
+749 info lifecycle commander@2.11.0~install: commander@2.11.0
+750 silly lifecycle commander@2.11.0~install: no script for install, continuing
+751 silly install source-map@0.5.6 /Users/travisbatts/node_modules/.staging/source-map-e6e65ad0
+752 info lifecycle source-map@0.5.6~install: source-map@0.5.6
+753 silly lifecycle source-map@0.5.6~install: no script for install, continuing
+754 silly install uglify-js@3.0.27 /Users/travisbatts/node_modules/.staging/uglify-js-52e5985f
+755 info lifecycle uglify-js@3.0.27~install: uglify-js@3.0.27
+756 silly lifecycle uglify-js@3.0.27~install: no script for install, continuing
+757 silly install sharedjs@0.0.2 /Users/travisbatts/node_modules/.staging/sharedjs-0de5489a
+758 info lifecycle sharedjs@0.0.2~install: sharedjs@0.0.2
+759 silly lifecycle sharedjs@0.0.2~install: no script for install, continuing
+760 silly install linter@0.0.7 /Users/travisbatts/node_modules/.staging/linter-872e20e6
+761 info lifecycle linter@0.0.7~install: linter@0.0.7
+762 verbose lifecycle linter@0.0.7~install: unsafe-perm in lifecycle true
+763 verbose lifecycle linter@0.0.7~install: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/travisbatts/node_modules/linter/node_modules/.bin:/Users/travisbatts/node_modules/.bin:/usr/local/Cellar/node/6.7.0/bin:/Users/travisbatts/.rvm/gems/ruby-2.3.1/bin:/Users/travisbatts/.rvm/gems/ruby-2.3.1@global/bin:/Users/travisbatts/.rvm/rubies/ruby-2.3.1/bin:/usr/local/bin:/usr/local/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/travisbatts/.rvm/bin
+764 verbose lifecycle linter@0.0.7~install: CWD: /Users/travisbatts/node_modules/linter
+765 silly lifecycle linter@0.0.7~install: Args: [ '-c', 'make install' ]
+766 silly lifecycle linter@0.0.7~install: Returned: code: 2  signal: null
+767 info lifecycle linter@0.0.7~install: Failed to exec install script
+768 verbose unlock done using /Users/travisbatts/.npm/_locks/staging-d0b57d3c7fb320d4.lock for /Users/travisbatts/node_modules/.staging
+769 silly rollbackFailedOptional Starting
+770 silly rollbackFailedOptional Finishing
+771 silly runTopLevelLifecycles Finishing
+772 silly install printInstalled
+773 warn enoent ENOENT: no such file or directory, open '/Users/travisbatts/package.json'
+774 warn travisbatts No description
+775 warn travisbatts No repository field.
+776 warn travisbatts No README data
+777 warn travisbatts No license field.
+778 verbose stack Error: linter@0.0.7 install: `make install`
+778 verbose stack Exit status 2
+778 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+778 verbose stack     at emitTwo (events.js:106:13)
+778 verbose stack     at EventEmitter.emit (events.js:191:7)
+778 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+778 verbose stack     at emitTwo (events.js:106:13)
+778 verbose stack     at ChildProcess.emit (events.js:191:7)
+778 verbose stack     at maybeClose (internal/child_process.js:877:16)
+778 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+779 verbose pkgid linter@0.0.7
+780 verbose cwd /Users/travisbatts/current-project-folder/Hail-To-The-Skins
+781 error Darwin 13.4.0
+782 error argv "/usr/local/Cellar/node/6.7.0/bin/node" "/usr/local/bin/npm" "install" "linter"
+783 error node v6.7.0
+784 error npm  v3.10.7
+785 error code ELIFECYCLE
+786 error linter@0.0.7 install: `make install`
+786 error Exit status 2
+787 error Failed at the linter@0.0.7 install script 'make install'.
+787 error Make sure you have the latest version of node.js and npm installed.
+787 error If you do, this is most likely a problem with the linter package,
+787 error not with npm itself.
+787 error Tell the author that this fails on your system:
+787 error     make install
+787 error You can get information on how to open an issue for this project with:
+787 error     npm bugs linter
+787 error Or if that isn't available, you can get their info via:
+787 error     npm owner ls linter
+787 error There is likely additional logging output above.
+788 verbose exit [ 1, true ]
