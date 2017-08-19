@@ -216,13 +216,8 @@ a {
         margin: 0 auto;
     }
 }
-@media (max-width: 840px) {
-    .primary-content {
-        height: 46.875em;
-        width: 100%;
-    }
-}
-@media (max-width: 774px) {
+
+@media (max-width: 884px) {
   html {
     width: 100%;
     height: 100%;
