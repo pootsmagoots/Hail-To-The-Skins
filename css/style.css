@@ -1,200 +1,202 @@
-/* Universal selectors */
 
+/* FONTS
+---------------*/
+
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url('Roboto-Thin-webfont.eot');
+    src: url('Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'), url('Roboto-Thin-webfont.woff') format('woff'), url('Roboto-Thin-webfont.ttf') format('truetype'), url('Roboto-Thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+}
+
+/* Universal selectors
+----------------------*/
 * {
-  box-sizing: border-box;
-
+    box-sizing: border-box;
 }
 body {
-  margin: 0 auto;
-  padding: 0;
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 1em;
-  background-color: #EFEFEF;
+    font-family: Georgia, Arial, sans-serif;
+    font-size: 1em;
+    background-color: #EFEFEF;
 }
 
-
-
-/* Styling of header and content inside header */
-
-header {
-
-  text-align: center;
-  width: 100%;
-  height: 40.625em;
-  margin-bottom: 1.25em;
-  background:  linear-gradient(#F5B312 1% , transparent 50%) ,
-               linear-gradient(0deg, #6C0F26 1%, transparent 50%),
-               url("../img/redskins-helmet5.jpg") no-repeat center/cover;
- background-attachment: fixed;
-
+/* Styling of header and content inside header
+---------------------------------------------*/
+.main-header {
+    text-align: center;
+    width: 100%;
+    height: 40.625em;
+    margin-bottom: 1.25em;
+    background: linear-gradient(#F5B312 1%, transparent 50%),
+                linear-gradient(0deg, #6C0F26 1%, transparent 50%),
+                url("../img/redskins-helmet5.jpg") no-repeat center/cover;
+    background-attachment: fixed;
 }
-
+nav {
+    margin-right: 35px;
+    background-position: fixed;
+}
 nav ul li {
-  display: inline;
-  text-decoration: none !important;
+    display: inline;
+    text-decoration: none !important;
 }
-
-
-header .gold {
- color: gold;
-}
-
-header .burgundy {
-  color: #6C0F26;
-}
-
-
 ul li {
-  display: inline-block;
-  background-color: gold;
-  border: 2px solid #6C0F26;
+    display: inline-block;
+    background-color: gold;
+    border: 2px solid #6C0F26;
+}
+header h1 {
+    font-family: "Roboto-Thin", Arial, sans-serif;
+}
+header .gold {
+    color: gold;
+}
+header .burgundy {
+    color: #6C0F26;
 }
 
 /* Styling primary and secondary content along with player-section and second
-player section on main page  */
-
+player section on main page
+-----------------------------------------------------------------*/
 .primary-content {
-  height: 46.875em;
+    height: 46.875em;
 }
-
-.primary-content{
-  width: 80%;
-  margin: auto;
-  text-align: center;
+.primary-content {
+    width: 80%;
+    margin: auto;
+    text-align: center;
 }
-
 .player-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-
 .second-player-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-/* Divs with pictures primary-content */
-
+/* Divs with pictures primary-content
+------------------------------------*/
 .linemen-div {
-  background:  linear-gradient(#fff, transparent),
-               linear-gradient(0deg, #6C0F26, transparent 30%),
-               url("../img/Russ-Grim.jpg") no-repeat center/cover;
-  width: 12.5em;
-  height: 15.625em;
-  margin: 0 0.625em;
+    background: linear-gradient(#fff, transparent),
+                linear-gradient(0deg, #6C0F26, transparent 30%),
+                url("../img/Russ-Grim.jpg") no-repeat center/cover;
+    width: 12.5em;
+    height: 15.625em;
+    margin: 0 0.625em;
 }
-
 .quarter-back-div {
-  background: linear-gradient(#fff, transparent),
-              linear-gradient(0deg, #6C0F26, transparent 30%),
-              url("../img/Sonny.jpg") no-repeat top/cover;
-  width: 12.5em;
-  height: 15.625em;
-  margin: 0 0.625em;
-  margin-top: 3.825em;
+    background: linear-gradient(#fff, transparent),
+                linear-gradient(0deg, #6C0F26, transparent 30%),
+                url("../img/Sonny.jpg") no-repeat top/cover;
+    width: 12.5em;
+    height: 15.625em;
+    margin: 0 0.625em;
+    margin-top: 3.825em;
 }
-
 .running-back-div {
-  background: linear-gradient(#fff, transparent),
-               linear-gradient(0deg, #6C0F26, transparent 30%),
-
-  url("../img/John-Riggins.jpg") no-repeat top/cover;
-  width: 12.5em;
-  height: 15.625em;
-  margin: 0 0.625em;
+    background: linear-gradient(#fff, transparent),
+                linear-gradient(0deg, #6C0F26, transparent 30%),
+                url("../img/John-Riggins.jpg") no-repeat top/cover;
+    width: 12.5em;
+    height: 15.625em;
+    margin: 0 0.625em;
 }
-
 .defense-player-div {
-  background: linear-gradient(#fff, transparent),
-              linear-gradient(0deg, #6C0F26, transparent 30%),
-              url("../img/Darrel-Green.jpg") no-repeat top/cover;
-  width: 12.5em;
-  height: 15.625em;
-  margin-top: 0.9375em;
-  margin-left: 0.625em;
+    background: linear-gradient(#fff, transparent),
+                linear-gradient(0deg, #6C0F26, transparent 30%),
+               url("../img/Darrel-Green.jpg") no-repeat top/cover;
+    width: 12.5em;
+    height: 15.625em;
+    margin-top: 0.9375em;
+    margin-left: 0.625em;
 }
-
 .receiver-div {
-  background: linear-gradient(#fff, transparent),
-              linear-gradient(0deg, #6C0F26, transparent 30%),
-              url('../img/Artmonk.jpg') no-repeat top/cover;
-  width: 12.5em;
-  height: 15.625em;
-  margin-top: 0.9375em;
-  margin-right: 0.625em;
+    background: linear-gradient(#fff, transparent),
+                linear-gradient(0deg, #6C0F26, transparent 30%),
+                url('../img/Artmonk.jpg') no-repeat top/cover;
+    width: 12.5em;
+    height: 15.625em;
+    margin-top: 0.9375em;
+    margin-right: 0.625em;
+}
+.primary-content h2 {
+    font-size: 1.5rem;
+    font-family: "Roboto-Thin", Arial, sans-serif;
 }
 
 /* styling secondary content divs/pictures and heading/paragraphs */
-
 .secondary-content {
-  width: 100%;
-  height: 40.625em;
-  margin-bottom: 1.25em;
-  background:  linear-gradient(#F5B312 1% , transparent 50%) ,
-               linear-gradient(0deg, #6C0F26, transparent 50%),
-               url("../img/redskins.jpg") no-repeat bottom/cover;
- background-attachment: fixed;
+    width: 100%;
+    height: 40.625em;
+    background: linear-gradient(#F5B312 1%, transparent 50%),
+                linear-gradient(0deg, #6C0F26, transparent 50%),
+                url("../img/redskins.jpg") no-repeat bottom/cover;
+    background-attachment: fixed;
 }
-
-h3 {
-  text-align: center;
-  font-size: 2rem;
-  color: #000;
+.superbowl-section h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Roboto-Thin", Arial, sans-serif;
 }
-
 .three {
-  color: #6C0F26;
+    color: #6C0F26;
+}
+.superbowl-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #000;
+
+}
+.superbowl-section {
+    margin: 0 auto;
+    width: 80%;
+    height: 50em;
+}
+.superbowls {
+    margin: 20px;
+    font-size: 1rem;
 }
 
-.superbowl-flexbox{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  color: #000;
-  font-size: 2rem;
-  height: 500px;
+.test {
+  float: right;
 }
 
-
-
-
-
-/* classes/elements used over multiple elements */
-
-
-
-
+/* classes/elements used over multiple elements
+---------------------------------------------- */
 .border {
-  border-top: 2px solid gold;
+    margin-top: 40px;
+    border-top: 2px solid gold;
 }
-
 a {
- text-decoration: none !important;
- color: #000;
+    text-decoration: none !important;
+    color: #000;
 }
-
-.anchor > a {
-  color: #fff;
-  padding: 0.625em;
-  padding-top: 12.5em;
-  display: block;
+.anchor>a {
+    color: #fff;
+    padding: 0.625em;
+    padding-top: 12.5em;
+    display: block;
 }
-
 .box-shadow {
-  box-shadow: 5px 4px 20px 5px #000;
+    box-shadow: 5px 4px 20px 5px #000;
 }
 
-
-
-/* footer and bottom half of page */
-
-footer {
-  width: 100%;
-  text-align: center;
+/* footer and bottom half of page
+--------------------------------*/
+.main-footer {
+    width: 100%;
+    text-align: center;
+    padding: 2em 0;
 }
 
 /*
@@ -204,17 +206,24 @@ footer {
   clear: both;
 }*/
 
+/* Media Queries
+----------------------------------- */
 
+@media (min-width: 1195px) {
+    .container {
+        width: 70%;
+        margin: 0 auto;
+    }
 
+    .main-header, .main-footer {
+        width: 70%;
+        margin: 0 auto;
+    }
 
-
-/* Media Queries */
-@media (min-width: 1300px) and (max-width: 1640px) {
-  body {
-    width: 70%;
-  }
+    .container {
+        display: calc(100vh - 14px)
+    }
 }
-
 @media (max-width: 840px) {
     .primary-content {
         height: 46.875em;
@@ -223,130 +232,190 @@ footer {
 }
 @media (max-width: 674px) {
     .linemen-div {
-        background: linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Russ-Grim.jpg") no-repeat center/cover;
+        background: linear-gradient(#fff, transparent),
+                    linear-gradient(0deg, #6C0F26, transparent 30%),
+                    url("../img/Russ-Grim.jpg") no-repeat center/cover;
         width: 10.5em;
         height: 15.625em;
         margin: 0 0.625em;
     }
+
     .quarter-back-div {
-        background: linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Sonny.jpg") no-repeat top/cover;
+        background: linear-gradient(#fff, transparent),
+                    linear-gradient(0deg, #6C0F26, transparent 30%),
+                    url("../img/Sonny.jpg") no-repeat top/cover;
         width: 10.5em;
         height: 15.625em;
         margin: 0 0.625em;
         margin-top: 3.125em;
     }
+
     .running-back-div {
-        background: linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/John-Riggins.jpg") no-repeat top/cover;
+        background: linear-gradient(#fff, transparent),
+                    linear-gradient(0deg, #6C0F26, transparent 30%),
+                                url("../img/John-Riggins.jpg") no-repeat top/cover;
         width: 10.5em;
         height: 15.625em;
         margin: 0 0.625em;
     }
+
     .defense-player-div {
-        background: linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Darrel-Green.jpg") no-repeat top/cover;
+        background: linear-gradient(#fff, transparent),
+                    linear-gradient(0deg, #6C0F26, transparent 30%),
+                    url("../img/Darrel-Green.jpg") no-repeat top/cover;
         width: 10.5em;
         height: 15.625em;
         margin-top: 0.9375em;
         margin-left: 0.625em;
     }
+
     .receiver-div {
-        background: linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url('../img/Artmonk.jpg') no-repeat top/cover;
+        background: linear-gradient(#fff, transparent),
+                    linear-gradient(0deg, #6C0F26, transparent 30%),
+                    url('../img/Artmonk.jpg') no-repeat top/cover;
         width: 10.5em;
         height: 15.625em;
         margin-top: 0.9375em;
         margin-right: 0.625em;
     }
-}
 
+    .container {
+        display: calc(100vh - 34px)
+    }
+}
 @media (min-width: 359px) and (max-width: 580px) {
-  .primary-content {
-      height: 130.875em;
-      width: 69%;
-  }
+    .primary-content {
 
-.linemen-div {
-    background: linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Russ-Grim.jpg") no-repeat center/cover;
-    width: 10.5em;
-    height: 20.625em;
-    margin: 15px 50px;
-}
-.quarter-back-div {
-    background: linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Sonny.jpg") no-repeat top/cover;
-    width: 10.5em;
-    height: 20.625em;
-   margin: 15px 50px;
-}
-.running-back-div {
-    background: linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/John-Riggins.jpg") no-repeat top/cover;
-    width: 10.5em;
-    height: 20.625em;
-    margin: 15px 50px;
-}
-.defense-player-div {
-    background: linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Darrel-Green.jpg") no-repeat top/cover;
-    width: 10.5em;
-    height: 20.625em;
-    margin: 15px 50px;
-}
-.receiver-div {
-    background: linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url('../img/Artmonk.jpg') no-repeat top/cover;
-    width: 10.5em;
-    height: 20.625em;
-    margin: 15px 50px;
- }
- .anchor > a {
-   color: #fff;
-   padding: 1.25em;
-   padding-top: 16.0em;
-   display: block;
- }
-}
+        height: 130.875em;
+        width: 69%;
+    }
+
+    .superbowl-flexbox {
+        flex-direction: column;
+    }
+
+    .superbowl-section {
+        height: 130em;
+    }
+
+    .container {
+        display: calc(100vh - 10px)
+    }
+
+    .linemen-div {
+        background: linear-gradient(#fff, transparent),
+                    linear-gradient(0deg, #6C0F26, transparent 30%),
+                    url("../img/Russ-Grim.jpg") no-repeat center/cover;
+        width: 10.5em;
+        height: 20.625em;
+        margin: 15px 50px;
+    }
 
 
+    .quarter-back-div {
+        background: linear-gradient(#fff, transparent),
+                    linear-gradient(0deg, #6C0F26, transparent 30%),
+                    url("../img/Sonny.jpg") no-repeat top/cover;
+        width: 10.5em;
+        height: 20.625em;
+        margin: 15px 50px;
+    }
+
+    .running-back-div {
+        background: linear-gradient(#fff, transparent),
+                    linear-gradient(0deg, #6C0F26, transparent 30%),
+                    url("../img/John-Riggins.jpg") no-repeat top/cover;
+        width: 10.5em;
+        height: 20.625em;
+        margin: 15px 50px;
+    }
+
+    .defense-player-div {
+        background: linear-gradient(#fff, transparent),
+                    linear-gradient(0deg, #6C0F26, transparent 30%),
+                    url("../img/Darrel-Green.jpg") no-repeat top/cover;
+        width: 10.5em;
+        height: 20.625em;
+        margin: 15px 50px;
+    }
+
+    .receiver-div {
+        background: linear-gradient(#fff, transparent),
+                    linear-gradient(0deg, #6C0F26, transparent 30%),
+                    url('../img/Artmonk.jpg') no-repeat top/cover;
+        width: 10.5em;
+        height: 20.625em;
+        margin: 15px 50px;
+    }
+
+
+    .anchor>a {
+        color: #fff;
+        padding: 1.25em;
+        padding-top: 16.0em;
+        display: block;
+    }
+}
 @media (min-width: 159px) and (max-width: 358px) {
-  .primary-content {
-      height: 148.875em;
-      width: 50%;
-  }
+    .primary-content {
+        height: 148.875em;
+        width: 50%;
+    }
 
-.linemen-div {
-    background: linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Russ-Grim.jpg") no-repeat center/cover;
-    width: 10.5em;
-    height: 20.625em;
-    margin: 15px;
-    padding: 20px;
-}
-.quarter-back-div {
-    background: linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Sonny.jpg") no-repeat top/cover;
-    width: 10.5em;
-    height: 20.625em;
-    margin: 15px;
-    padding: 20px;
-}
-.running-back-div {
-    background: linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/John-Riggins.jpg") no-repeat top/cover;
-    width: 10.5em;
-    height: 20.625em;
-    margin: 15px;
-    padding: 20px;
-}
-.defense-player-div {
-    background: linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Darrel-Green.jpg") no-repeat top/cover;
-    width: 10.5em;
-    height: 20.625em;
-    margin: 15px;
-    padding: 20px;
-}
-.receiver-div {
-    background: linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url('../img/Artmonk.jpg') no-repeat top/cover;
-    width: 10.5em;
-    height: 20.625em;
-    margin: 15px;
-    padding: 20px;
- }
- .anchor > a {
-   color: #fff;
-   padding: 1.25em;
-   padding-top: 11.0em;
-   display: block;
- }
+    .linemen-div {
+        background: linear-gradient(#fff, transparent),
+                    linear-gradient(0deg, #6C0F26, transparent 30%),
+                    url("../img/Russ-Grim.jpg") no-repeat center/cover;
+        width: 10.5em;
+        height: 20.625em;
+        margin: 15px;
+        padding: 20px;
+    }
+
+    .quarter-back-div {
+        background: linear-gradient(#fff, transparent),
+                    linear-gradient(0deg, #6C0F26, transparent 30%),
+                    url("../img/Sonny.jpg") no-repeat top/cover;
+        width: 10.5em;
+        height: 20.625em;
+        margin: 15px;
+        padding: 20px;
+    }
+
+    .running-back-div {
+        background: linear-gradient(#fff, transparent),
+                    linear-gradient(0deg, #6C0F26, transparent 30%),
+                    url("../img/John-Riggins.jpg") no-repeat top/cover;
+        width: 10.5em;
+        height: 20.625em;
+        margin: 15px;
+        padding: 20px;
+    }
+
+    .defense-player-div {
+        background: linear-gradient(#fff, transparent),
+                    linear-gradient(0deg, #6C0F26, transparent 30%),
+                    url("../img/Darrel-Green.jpg") no-repeat top/cover;
+        width: 10.5em;
+        height: 20.625em;
+        margin: 15px;
+        padding: 20px;
+    }
+
+    .receiver-div {
+        background: linear-gradient(#fff, transparent),
+                    linear-gradient(0deg, #6C0F26, transparent 30%),
+                    url('../img/Artmonk.jpg') no-repeat top/cover;
+        width: 10.5em;
+        height: 20.625em;
+        margin: 15px;
+        padding: 20px;
+    }
+
+    .anchor>a {
+        color: #fff;
+        padding: 1.25em;
+        padding-top: 11.0em;
+        display: block;
+    }
 }
