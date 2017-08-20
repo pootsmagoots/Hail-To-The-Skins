@@ -19,12 +19,26 @@
 body {
     font-family: Georgia, Arial, sans-serif;
     font-size: 1em;
-    background-color: #EFEFEF;
+    background-color: #E6ECF0;
 }
 
 /* Styling of header and content inside header
 ---------------------------------------------*/
 .main-header {
+  position: relative;
+  z-index: 1;
+
+}
+.fixed-header {
+  background-color: #6C0F26;
+  height: 100px;
+    left: 0; right: 0;
+    top: 0;
+    position: fixed;
+}
+.banner {
+    margin-top: 105px;
+    padding-top: 10px;
     text-align: center;
     width: 100%;
     height: 40.625em;
@@ -33,27 +47,39 @@ body {
                 linear-gradient(0deg, #6C0F26 1%, transparent 50%),
                 url("../img/redskins-helmet5.jpg") no-repeat center/cover;
     background-attachment: fixed;
+    opacity: 0.8;
 }
 nav {
     margin-right: 35px;
-    background-position: fixed;
+
 }
 nav ul li {
     display: inline;
     text-decoration: none !important;
+    float: right;
 }
 ul li {
     display: inline-block;
     background-color: gold;
     border: 2px solid #6C0F26;
 }
-header h1 {
-    font-family: "Roboto-Thin", Arial, sans-serif;
+.title {
+  float: left;
+  color: white;
+  margin-top: 18px;
+  margin-left: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
-header .gold {
+.banner h1 {
+    font-family: "Roboto-Thin", Arial, sans-serif;
+    font-weight: bolder;
+}
+.banner .gold {
     color: gold;
 }
-header .burgundy {
+.banner .burgundy {
     color: #6C0F26;
 }
 
@@ -137,8 +163,9 @@ player section on main page
     height: 40.625em;
     background: linear-gradient(#F5B312 1%, transparent 50%),
                 linear-gradient(0deg, #6C0F26, transparent 50%),
-                url("../img/redskins.jpg") no-repeat bottom/cover;
+                url("../img/redskins.jpg") no-repeat center/cover;
     background-attachment: fixed;
+    opacity: 0.8;
 }
 .superbowl-section {
     margin: 0 auto;
@@ -194,12 +221,13 @@ a {
     padding: 2em 0;
 }
 
-/*
-.group:after {
+/* pseudo codes and clearfixes */
+
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
-}*/
+}
 
 /* Media Queries
 ----------------------------------- */
@@ -211,9 +239,12 @@ a {
         display: calc(100vh - 34px)
     }
 
-    .main-header, .main-footer {
+    .banner, .main-footer {
         width: 70%;
         margin: 0 auto;
+    }
+    .banner {
+      margin-top: 105px;
     }
 }
 
@@ -233,66 +264,67 @@ a {
 
   .superbowl-flexbox {
     flex-direction: column;
+   text-align: center;
   }
 
   .superbowl-section {
     margin: 0 auto;
     width: 80%;
-    height: 115em;
+    height: 95em;
   }
-    .linemen-div {
-        background: linear-gradient(#fff, transparent),
-                    linear-gradient(0deg, #6C0F26, transparent 30%),
-                    url("../img/Russ-Grim.jpg") no-repeat center/cover;
-        width: 10.5em;
-        height: 15.625em;
-        margin: 0 0.625em;
+  .linemen-div {
+  background: linear-gradient(#fff, transparent),
+              linear-gradient(0deg, #6C0F26, transparent 30%),
+              url("../img/Russ-Grim.jpg") no-repeat center/cover;
+  width: 10.5em;
+  height: 15.625em;
+  margin: 0 0.625em;
     }
 
     .quarter-back-div {
-        background: linear-gradient(#fff, transparent),
-                    linear-gradient(0deg, #6C0F26, transparent 30%),
-                    url("../img/Sonny.jpg") no-repeat top/cover;
-        width: 10.5em;
-        height: 15.625em;
-        margin: 0 0.625em;
-        margin-top: 3.125em;
+    background: linear-gradient(#fff, transparent),
+                linear-gradient(0deg, #6C0F26, transparent 30%),
+                url("../img/Sonny.jpg") no-repeat top/cover;
+    width: 10.5em;
+    height: 15.625em;
+    margin: 0 0.625em;
+    margin-top: 3.125em;
     }
 
     .running-back-div {
-        background: linear-gradient(#fff, transparent),
-                    linear-gradient(0deg, #6C0F26, transparent 30%),
-                                url("../img/John-Riggins.jpg") no-repeat top/cover;
-        width: 10.5em;
-        height: 15.625em;
-        margin: 0 0.625em;
+    background: linear-gradient(#fff, transparent),
+                linear-gradient(0deg, #6C0F26, transparent 30%),
+                url("../img/John-Riggins.jpg") no-repeat top/cover;
+    width: 10.5em;
+    height: 15.625em;
+    margin: 0 0.625em;
     }
 
     .defense-player-div {
-        background: linear-gradient(#fff, transparent),
-                    linear-gradient(0deg, #6C0F26, transparent 30%),
-                    url("../img/Darrel-Green.jpg") no-repeat top/cover;
-        width: 10.5em;
-        height: 15.625em;
-        margin-top: 0.9375em;
-        margin-left: 0.625em;
+    background: linear-gradient(#fff, transparent),
+                linear-gradient(0deg, #6C0F26, transparent 30%),
+                url("../img/Darrel-Green.jpg") no-repeat top/cover;
+    width: 10.5em;
+    height: 15.625em;
+    margin-top: 0.9375em;
+    margin-left: 0.625em;
     }
 
     .receiver-div {
-        background: linear-gradient(#fff, transparent),
-                    linear-gradient(0deg, #6C0F26, transparent 30%),
-                    url('../img/Artmonk.jpg') no-repeat top/cover;
-        width: 10.5em;
-        height: 15.625em;
-        margin-top: 0.9375em;
-        margin-right: 0.625em;
+    background: linear-gradient(#fff, transparent),
+                linear-gradient(0deg, #6C0F26, transparent 30%),
+                url('../img/Artmonk.jpg') no-repeat top/cover;
+    width: 10.5em;
+    height: 15.625em;
+    margin-top: 0.9375em;
+    margin-right: 0.625em;
     }
 
     .container {
         display: calc(100vh - 34px)
     }
 }
-@media (min-width: 359px) and (max-width: 580px) {
+@media (min-width: 359px) and (max-width: 578px) {
     .primary-content {
         height: 128.875em;
         width: 69%;
@@ -303,7 +335,8 @@ a {
     }
 
     .superbowl-section {
-        height: 130em;
+        height: 90em;
+
     }
 
     .container {
@@ -362,5 +395,14 @@ a {
         padding: 1.25em;
         padding-top: 16.0em;
         display: block;
+    }
+
+    nav ul li {
+      text-align: center;
+      margin-top: 30px;
+      margin-right: 75px;
+    }
+    .title {
+      margin-left: 115px;
     }
 }
