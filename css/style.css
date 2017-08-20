@@ -25,17 +25,15 @@ body {
 /* Styling of header and content inside header
 ---------------------------------------------*/
 .main-header {
-  position: relative;
-  z-index: 1;
+ width: 100%;
+ z-index: 1;
+ background-color: #6C0F26;
+ height: 100px;
+ top: 0;
+ position: fixed;
+ box-shadow: 1px 1px 1px rgb(0,0,0);
+}
 
-}
-.fixed-header {
-  background-color: #6C0F26;
-  height: 100px;
-    left: 0; right: 0;
-    top: 0;
-    position: fixed;
-}
 .banner {
     margin-top: 105px;
     padding-top: 10px;
@@ -49,25 +47,22 @@ body {
     background-attachment: fixed;
     opacity: 0.8;
 }
-nav {
-    margin-right: 35px;
-
-}
 nav ul li {
-    display: inline;
     text-decoration: none !important;
     float: right;
+    margin-right: 20px;
 }
 ul li {
     display: inline-block;
     background-color: gold;
     border: 2px solid #6C0F26;
+    margin-top: 1px;
 }
 .title {
   float: left;
-  color: white;
+  color: #fff;
   margin-top: 18px;
-  margin-left: 15px;
+  margin-left: 20px;
   position: absolute;
   top: 0;
   left: 0;
@@ -323,6 +318,7 @@ a {
     .container {
         display: calc(100vh - 34px)
     }
+
 }
 @media (min-width: 359px) and (max-width: 578px) {
     .primary-content {
