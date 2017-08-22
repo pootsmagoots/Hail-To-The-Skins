@@ -33,6 +33,9 @@ body {
  position: fixed;
  box-shadow: inset -3px -3px 100px #F5B312;
  border-bottom: 10px solid #F5B312 ;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
 }
 
 .banner {
@@ -46,7 +49,7 @@ body {
                 linear-gradient(0deg, #6C0F26 1%, transparent 50%),
                 url("../img/redskins-helmet5.jpg") no-repeat center/cover;
     background-attachment: fixed;
-    opacity: 0.8;
+    opacity: 0.7;
 }
  ul {
     text-decoration: none !important;
@@ -60,13 +63,10 @@ ul li {
     margin-top: 1px;
 }
 .title {
-  float: left;
   color: #fff;
   margin-top: 18px;
   margin-left: 20px;
-  position: absolute;
-  top: 0;
-  left: 0;
+
 }
 .banner h1 {
     font-family: "Roboto-Thin", Arial, sans-serif;
@@ -79,6 +79,11 @@ ul li {
     color: #6C0F26;
 }
 
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
 
 
 /* Styling primary and secondary content along with player-section and second
@@ -156,14 +161,14 @@ player section on main page
 }
 
 /* styling secondary content divs/pictures and heading/paragraphs */
-.secondary-content {
+.secondary-content-start {
     width: 100%;
     height: 40.625em;
     background: linear-gradient(#F5B312 1%, transparent 50%),
                 linear-gradient(0deg, #6C0F26, transparent 50%),
                 url("../img/redskins.jpg") no-repeat center/cover;
     background-attachment: fixed;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 .superbowl-section {
     margin: 0 auto;
@@ -244,20 +249,8 @@ a {
     .banner {
       margin-top: 122px;
     }
-    .logo {
-      width: 100px;
-      height: 100px;
-      margin-left: 600px;
-    }
 
 }
-
-@media (max-width: 1194px) {
- .logo {
-  display: none;
- }
-}
-
 
 
 @media (max-width: 884px) {
@@ -335,13 +328,13 @@ a {
     .container {
         display: calc(100vh - 34px)
     }
+}
+@media (min-width: 359px) and (max-width: 578px) {
 
     .logo {
       display: none;
     }
 
-}
-@media (min-width: 359px) and (max-width: 578px) {
     .primary-content {
         height: 128.875em;
         width: 69%;
@@ -414,12 +407,7 @@ a {
         display: block;
     }
 
-    ul li {
-      text-align: center;
-      margin-top: 30px;
-      margin-right: 75px;
-    }
-    .title {
-      margin-left: 115px;
-    }
+   ul {
+     text-align: center;
+   }
 }
