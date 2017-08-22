@@ -31,7 +31,8 @@ body {
  height: 100px;
  top: 0;
  position: fixed;
- box-shadow: 1px 1px 1px rgb(0,0,0);
+ box-shadow: inset -3px -3px  100px #F5B312;
+ border-bottom: 10px solid #F5B312;
 }
 
 .banner {
@@ -93,13 +94,13 @@ player section on main page
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 .second-player-section {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 /* Divs with pictures primary-content
@@ -153,7 +154,7 @@ player section on main page
 }
 
 /* styling secondary content divs/pictures and heading/paragraphs */
-.secondary-content {
+.secondary-content-start {
     width: 100%;
     height: 40.625em;
     background: linear-gradient(#F5B312 1%, transparent 50%),
