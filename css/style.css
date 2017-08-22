@@ -28,14 +28,15 @@ body {
  width: 100%;
  z-index: 1;
  background-color: #6C0F26;
- height: 100px;
+ height: 120px;
  top: 0;
  position: fixed;
- box-shadow: 1px 1px 1px rgb(0,0,0);
+ box-shadow: inset -3px -3px 100px #F5B312;
+ border-bottom: 10px solid #F5B312 ;
 }
 
 .banner {
-    margin-top: 105px;
+    margin-top: 122px;
     padding-top: 10px;
     text-align: center;
     width: 100%;
@@ -47,7 +48,7 @@ body {
     background-attachment: fixed;
     opacity: 0.8;
 }
-nav ul li {
+ ul {
     text-decoration: none !important;
     float: right;
     margin-right: 20px;
@@ -55,7 +56,7 @@ nav ul li {
 ul li {
     display: inline-block;
     background-color: gold;
-    border: 2px solid #6C0F26;
+    border: 2px solid #000;
     margin-top: 1px;
 }
 .title {
@@ -77,6 +78,8 @@ ul li {
 .banner .burgundy {
     color: #6C0F26;
 }
+
+
 
 /* Styling primary and secondary content along with player-section and second
 player section on main page
@@ -239,9 +242,23 @@ a {
         margin: 0 auto;
     }
     .banner {
-      margin-top: 105px;
+      margin-top: 122px;
     }
+    .logo {
+      width: 100px;
+      height: 100px;
+      margin-left: 600px;
+    }
+
 }
+
+@media (max-width: 1194px) {
+ .logo {
+  display: none;
+ }
+}
+
+
 
 @media (max-width: 884px) {
   html {
@@ -319,6 +336,10 @@ a {
         display: calc(100vh - 34px)
     }
 
+    .logo {
+      display: none;
+    }
+
 }
 @media (min-width: 359px) and (max-width: 578px) {
     .primary-content {
@@ -393,7 +414,7 @@ a {
         display: block;
     }
 
-    nav ul li {
+    ul li {
       text-align: center;
       margin-top: 30px;
       margin-right: 75px;
