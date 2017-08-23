@@ -35,8 +35,7 @@ body {
  top: 0;
  position: fixed;
  box-shadow: inset -3px -3px 100px #F5B312;
- border-bottom: 10px solid #F5B312 ;
-
+ border-bottom: 10px solid #F5B312;
 }
 
 .banner {
@@ -52,8 +51,8 @@ body {
     z-index: 2;
     background-attachment: fixed;
     opacity: 0.7;
-
 }
+
  ul {
     text-decoration: none !important;
     float: right;
@@ -89,6 +88,7 @@ ul li {
 }
 
 
+
 /* Styling primary and secondary content along with player-section and second
 player section on main page
 -----------------------------------------------------------------*/
@@ -112,6 +112,7 @@ player section on main page
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 
 /* Divs with pictures primary-content
 ------------------------------------*/
@@ -286,11 +287,10 @@ a {
 
   .superbowl-flexbox {
     flex-direction: column;
-   text-align: center;
+    text-align: center;
   }
 
   .superbowl-section {
-    margin: 0 auto;
     width: 80%;
     height: 95em;
   }
@@ -443,4 +443,17 @@ a {
      text-align: center;
      padding-bottom: 40px;
    }
+
+   .banner {
+     background: linear-gradient(0deg, #E6ECF0, transparent 50%),
+                  url("../img/Redskins-helmet5.jpg") no-repeat center/cover;
+   }
+
+   .secondary-banner {
+     background: linear-gradient(0deg, #E6ECF0, transparent 50%),
+                  url("../img/redskins.jpg") no-repeat center/cover;
+   }
+
+
+
 }
