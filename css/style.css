@@ -369,16 +369,26 @@ a {
     .banner {
       height: 43.5em;
       background-attachment: scroll;
+      background: url("../img/Redskins-helmet5.jpg") no-repeat center/cover;
     }
 
     .secondary-banner {
       background-attachment: scroll;
+      background: url("../img/redskins.jpg") no-repeat center/cover;
     }
 
     .linemen-div {
         background: linear-gradient(#fff, transparent),
                     linear-gradient(0deg, #6C0F26, transparent 30%),
                     url("../img/Russ-Grim.jpg") no-repeat center/cover;
+
+        background: -webkit-linear-gradient linear-gradient(#fff, transparent),
+                                linear-gradient(0deg, #6C0F26, transparent 30%),
+                                url("../img/Russ-Grim.jpg") no-repeat center/cover;
+
+        background:  -moz-linear-gradient linear-gradient(#fff, transparent),
+                                linear-gradient(0deg, #6C0F26, transparent 30%),
+                                url("../img/Russ-Grim.jpg") no-repeat center/cover;
         width: 10.5em;
         height: 20.625em;
         margin: 15px 50px;
