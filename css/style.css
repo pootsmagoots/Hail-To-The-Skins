@@ -25,17 +25,17 @@ body {
 /* Styling of header/banner and content inside header
 ---------------------------------------------*/
 .main-header {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
  width: 100%;
- z-index: 1;
+ z-index: 10000;
  background-color: #6C0F26;
  height: 120px;
  top: 0;
  position: fixed;
  box-shadow: inset -3px -3px 100px #F5B312;
  border-bottom: 10px solid #F5B312 ;
- display: flex;
- flex-direction: row;
- justify-content: space-around;
 
 }
 
@@ -49,6 +49,7 @@ body {
     background: linear-gradient(#F5B312 1%, transparent 50%),
                 linear-gradient(0deg, #6C0F26 1%, transparent 50%),
                 url("../img/redskins-helmet5.jpg") no-repeat center/cover;
+    z-index: 2;
     background-attachment: fixed;
     opacity: 0.7;
 
@@ -84,13 +85,9 @@ ul li {
 .logo {
   width: 120px;
   height: 100px;
+  padding-left: 15px;
 }
 
-.arrow {
-  width: 50px;
-  font-size: 50px;
-  margin-top: 520px;
-}
 
 /* Styling primary and secondary content along with player-section and second
 player section on main page
@@ -167,13 +164,14 @@ player section on main page
 }
 
 /* styling secondary content divs/pictures and heading/paragraphs */
-.secondary-content-start {
+.secondary-banner {
     width: 100%;
     height: 35.625em;
     background: linear-gradient(#F5B312 1%, transparent 50%),
                 linear-gradient(0deg, #6C0F26, transparent 50%),
                 url("../img/redskins.jpg") no-repeat center/cover;
     background-attachment: fixed;
+    z-index: 3;
     opacity: 0.7;
     text-align: center;
 }
@@ -226,6 +224,12 @@ a {
 }
 .box-shadow {
     box-shadow: 5px 4px 20px 5px #000;
+}
+
+.arrow {
+  width: 50px;
+  font-size: 50px;
+  margin-top: 520px;
 }
 
 /* footer and bottom half of page
@@ -360,6 +364,15 @@ a {
 
     .container {
         display: calc(100vh - 10px)
+    }
+
+    .banner {
+      height: 43.5em;
+      background-attachment: scroll;
+    }
+
+    .secondary-banner {
+      background-attachment: scroll;
     }
 
     .linemen-div {
