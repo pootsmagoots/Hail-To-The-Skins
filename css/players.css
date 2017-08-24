@@ -11,25 +11,55 @@ body {
   min-height: 100vh;
 }
 
-main {
+.row {  /*sticky footer */
+  border: 1px solid red;
   flex: 1;
+  align-items: center;
+
+}
+
+p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.offensive-line {
+  border: 1px solid red;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first,
+.offensive-line,
+.second,
+.row {
+  display: flex;
+}
+
+
+.first, .second {
+  flex: 1;
+  flex-direction: row;
+
 }
 /* sizing for the header and top of page */
 
-header {
+.main-header{
   width: 100%;
   text-align: center;
-
 }
 
+ul li {
+  text-decoration: none;
+  display: block;
+  padding: 5px;
+  margin: 8px;
+  margin-right: 50px;
+}
 
-
-
-
-
-
-
-
+li {
+  background-color: red;
+}
 
 
 /* selectors and elements used commonly */
