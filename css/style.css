@@ -20,6 +20,13 @@ body {
     font-family: Georgia, Arial, sans-serif;
     font-size: 1em;
     background-color: #E6ECF0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+  flex: 1;
 }
 
 /* Styling of header/banner and content inside header
@@ -71,7 +78,7 @@ ul li {
 
 }
 .banner h1 {
-    font-family: "Roboto-Thin", Arial, sans-serif;
+    font-family: "Roboto-Thin", Georgia, Arial, sans-serif;
     font-weight: bolder;
 }
 .banner .gold {
@@ -201,14 +208,15 @@ player section on main page
     font-size: 1rem;
 }
 
-
 /* classes/elements used over multiple elements
 ---------------------------------------------- */
+
 .trophy {
-  box-shadow: 6px 6px 10px #000;
+  box-shadow: 3px 3px 20px 8px #000;
   width: 260px;
   height: 300px;
 }
+
 .border {
     margin-top: 40px;
     border-top: 2px solid gold;
@@ -250,6 +258,7 @@ a {
   clear: both;
 }
 
+
 /* Media Queries
 ----------------------------------- */
 
@@ -257,7 +266,6 @@ a {
     .container {
         width: 70%;
         margin: 0 auto;
-        display: calc(100vh - 34px)
     }
 
     .banner, .main-footer {
@@ -288,12 +296,18 @@ a {
   .superbowl-flexbox {
     flex-direction: column;
     text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .superbowls {
+   flex: 1 50%;
   }
 
   .superbowl-section {
-    width: 80%;
     height: 95em;
   }
+
+
   .linemen-div {
   background: linear-gradient(#fff, transparent),
               linear-gradient(0deg, #6C0F26, transparent 30%),
@@ -342,9 +356,6 @@ a {
     margin-right: 0.625em;
     }
 
-    .container {
-        display: calc(100vh - 34px)
-    }
 }
 @media (min-width: 359px) and (max-width: 578px) {
 
@@ -353,28 +364,26 @@ a {
         width: 69%;
     }
 
-    .superbowl-flexbox {
-        flex-direction: column;
-    }
-
     .superbowl-section {
         height: 90em;
-
-    }
-
-    .container {
-        display: calc(100vh - 10px)
     }
 
     .banner {
       height: 43.5em;
       background-attachment: scroll;
-      background: url("../img/Redskins-helmet5.jpg") no-repeat center/cover;
+      background: linear-gradient(0deg, #E6ECF0, transparent 50%),
+                   url("../img/Redskins-helmet5.jpg") no-repeat center/cover;
     }
 
     .secondary-banner {
       background-attachment: scroll;
-      background: url("../img/redskins.jpg") no-repeat center/cover;
+      background: linear-gradient(0deg, #E6ECF0, transparent 50%),
+                   url("../img/redskins.jpg") no-repeat center/cover;
+    }
+
+    .banner h1 {
+        font-family: "Roboto-Thin", Georgia, Arial, sans-serif;
+        font-weight: bolder;
     }
 
     .linemen-div {
@@ -443,17 +452,5 @@ a {
      text-align: center;
      padding-bottom: 40px;
    }
-
-   .banner {
-     background: linear-gradient(0deg, #E6ECF0, transparent 50%),
-                  url("../img/Redskins-helmet5.jpg") no-repeat center/cover;
-   }
-
-   .secondary-banner {
-     background: linear-gradient(0deg, #E6ECF0, transparent 50%),
-                  url("../img/redskins.jpg") no-repeat center/cover;
-   }
-
-
 
 }
