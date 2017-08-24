@@ -52,9 +52,16 @@ body {
     width: 100%;
     height: 40.625em;
     margin-bottom: 1.25em;
-    background: linear-gradient(#F5B312 1%, transparent 50%),
-                linear-gradient(0deg, #6C0F26 1%, transparent 50%),
+    background: -webkit-linear-gradient(#F5B312 1%, transparent 50%),
+                -webkit-linear-gradient(bottom, #6C0F26 1%, transparent 50%),
                 url("../img/redskins-helmet5.jpg") no-repeat center/cover;
+    background: -o-linear-gradient(#F5B312 1%, transparent 50%),
+                -o-linear-gradient(bottom, #6C0F26 1%, transparent 50%),
+                url("../img/redskins-helmet5.jpg") no-repeat center/cover;
+    background: linear-gradient(#F5B312 1%, transparent 50%),
+                linear-gradient(to top, #6C0F26 1%, transparent 50%),
+                url("../img/redskins-helmet5.jpg") no-repeat center/cover;
+
     z-index: 2;
     background-attachment: fixed;
     opacity: 0.7;
