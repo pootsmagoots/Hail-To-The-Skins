@@ -1,3 +1,16 @@
+/* FONT STYLES
+==============*/
+@font-face {
+  font-family: 'Roboto-Thin';
+  src: url('Roboto-Thin-webfont.eot');
+  src: url('Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'), url('Roboto-Thin-webfont.woff') format('woff'), url('Roboto-Thin-webfont.ttf') format('truetype'), url('Roboto-Thin-webfont.svg#robotothin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* UNIVERSAL SELECTORS
+======================*/
+
 * {
   box-sizing: border-box;
 }
@@ -9,47 +22,74 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font-family: Georgia, sans-serif;
 }
 
-.row {  /*sticky footer */
-  border: 1px solid red;
-  flex: 1;
-  align-items: center;
 
-}
-
+/* FLEX ITEMS FOR MAIN CONTENT
+============================*/
 p {
   text-align: center;
   margin: 0 auto;
 }
 
-.offensive-line {
+.offensive-line-opener {
   border: 1px solid red;
   flex-direction: column;
   align-items: center;
+  font-family: "Roboto-Thin", Georgia, sans-serif;
+  font-weight: bolder;
+}
+
+.grimm {
+  background: url("../players/grimm.jpg") no-repeat top/cover;
+  width: 100px;
+  height: 350px;
+  opacity: 0.8;
+}
+
+.jacoby {
+  background: url("../players/jacoby.jpg") no-repeat top/cover;
+  width: 100px;
+  height: 350px;
+  opacity: 0.8;
 }
 
 .first,
 .offensive-line,
 .second,
-.row {
+.third,
+.fourth{
   display: flex;
 }
 
-
-.first, .second {
+.fourth{ /*sticky footer */
   flex: 1;
   flex-direction: row;
-
 }
-/* sizing for the header and top of page */
+
+.row {
+  border: 1px solid red;
+  flex: 1;
+  align-self: baseline;
+  text-align: center;
+}
+
+.third {
+  margin-top: 20px;
+}
+
+
+/* sizing for the header and top of page
+========================================*/
 
 .main-header{
   width: 100%;
   text-align: center;
+  font-family: "Roboto-Thin", Georgia, sans-serif;
 }
 
-ul li {
+.main-nav li {
   text-decoration: none;
   display: block;
   padding: 5px;
@@ -57,8 +97,8 @@ ul li {
   margin-right: 50px;
 }
 
-li {
-  background-color: red;
+li a {
+  color: red;
 }
 
 
@@ -66,6 +106,15 @@ li {
 
 a {
   text-decoration: none !important;
+  color: #fff;
+}
+
+
+/* footer
+==========*/
+
+footer {
+  border: 1px solid red;
 }
 
 
@@ -76,12 +125,33 @@ a {
 
 
 
+/* media queries
+===================*/
+
+@media (min-width: 769px) {
+
+.main-header, .main-nav {
+  display: flex;
+}
+
+.main-header {
+  flex-direction: column;
+  align-items: center;
+}
+
+}
 
 
+@media (min-width: 1025px) {
+.main-header {
+  flex-direction: row;
+  justify-content: space-between;
+}
 
-/* media queries */
+h1 {
+  margin-left: 5px;
+}
 
-@media (min-width: 780px) {
 
 
 
