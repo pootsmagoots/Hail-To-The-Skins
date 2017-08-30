@@ -23,6 +23,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   font-family: Georgia, sans-serif;
+  background-color: #E6ECF0;
 }
 
 
@@ -34,14 +35,25 @@ p {
 }
 
 .grimm {
-  background: url("../players/grimm.jpg") no-repeat top/cover;
+  background: linear-gradient(0deg,#E6ECF0, transparent),
+              url("../players/grimm.jpg") no-repeat top/cover;
   width: 100px;
   height: 350px;
   opacity: 0.8;
 }
 
 .jacoby {
-  background: url("../players/jacoby.jpg") no-repeat top/cover;
+  background: linear-gradient(0deg,#E6ECF0, transparent),
+              url("../players/jacoby.jpg") no-repeat top/cover;
+  width: 100px;
+  height: 350px;
+  opacity: 0.8;
+}
+
+
+.monk {
+  background: linear-gradient(0deg,#E6ECF0, transparent),
+              url("../players/monk.jpg") no-repeat top/cover;
   width: 100px;
   height: 350px;
   opacity: 0.8;
