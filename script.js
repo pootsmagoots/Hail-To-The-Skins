@@ -9,4 +9,11 @@ $(document).ready(function(){
 // $(this).css("text-decoration", "none");
 // });
 
+function blinker() {
+    $('.arrow').fadeOut(500);
+    $('.arrow').fadeIn(500);
+}
+
+setInterval(blinker, 2000); //Runs every second
+
 });
