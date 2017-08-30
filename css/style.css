@@ -247,7 +247,7 @@ player section on main page
 }
 
 a {
-  text-decoration: none !important;
+  text-decoration: none;
   color: #000;
 }
 
@@ -285,6 +285,14 @@ a {
   content: "";
   display: table;
   clear: both;
+}
+
+a:hover {
+  transform: scale(1.1);
+}
+
+li:hover {
+  transform: scale(1.3);
 }
 
 
