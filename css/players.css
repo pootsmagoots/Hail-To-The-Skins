@@ -29,34 +29,40 @@ body {
 
 /* FLEX ITEMS FOR MAIN CONTENT
 ============================*/
-p {
-  text-align: center;
-  margin: 0 auto;
-}
 
 .grimm {
-  background: linear-gradient(0deg,#E6ECF0, transparent),
+  background: linear-gradient(#000 10%, transparent 40%),
+              linear-gradient(0deg,#E6ECF0, transparent),
               url("../players/grimm.jpg") no-repeat top/cover;
   width: 100px;
   height: 350px;
   opacity: 0.8;
+ -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+ transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
 
 .jacoby {
-  background: linear-gradient(0deg,#E6ECF0, transparent),
+  background: linear-gradient(#000 10%, transparent 40%),
+              linear-gradient(0deg,#E6ECF0, transparent),
               url("../players/jacoby.jpg") no-repeat top/cover;
   width: 100px;
   height: 350px;
   opacity: 0.8;
+  -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+ transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
 
 
 .monk {
-  background: linear-gradient(0deg,#E6ECF0, transparent),
+  background: linear-gradient(#000 10%, transparent 30%),
+              linear-gradient(0deg,#E6ECF0, transparent),
               url("../players/monk.jpg") no-repeat top/cover;
   width: 100px;
   height: 350px;
   opacity: 0.8;
+  transition: 0.5s ease;
+  -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+ transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
 
 .first,
@@ -71,7 +77,6 @@ p {
 }
 
 .row {
-  border: 1px solid #000;
   flex: 1;
   align-self: baseline;
   text-align: center;
@@ -108,11 +113,28 @@ a {
 }
 
 .opener h2 {
-  border: 1px solid red;
   flex-direction: column;
   text-align: center;
   font-family: "Roboto-Thin", Georgia, sans-serif;
   font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #F5B312;
+}
+
+p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+/* PSEUDO CODE
+==================*/
+.scroll:hover {
+  cursor: pointer;
+}
+
+#hogs:hover {
+  color: #F5B312;
 }
 
 
@@ -120,7 +142,7 @@ a {
 ==========*/
 
 footer {
-  border: 1px solid red;
+border-top: 2px solid #F5B312;
 }
 
 
@@ -158,8 +180,29 @@ h1 {
   margin-left: 5px;
 }
 
+.grimm{
+background: linear-gradient(#000 10%, transparent 40%),
+            linear-gradient(0deg,#E6ECF0, transparent 10%),
+            url("../players/grimm.jpg") no-repeat top/cover;
 
+}
+.jacoby{
+background: linear-gradient(#000 10%, transparent 40%),
+            linear-gradient(0deg,#E6ECF0, transparent 10%),
+            url("../players/jacoby.jpg") no-repeat top/cover;
 
+}
+
+.monk{
+background: linear-gradient(#000 10%, transparent 40%),
+            linear-gradient(0deg,#E6ECF0, transparent 10%),
+            url("../players/monk.jpg") no-repeat top/cover;
+
+}
+.scroll:hover {
+  transform: rotate(10deg);
+  cursor: pointer;
+}
 
 
 }

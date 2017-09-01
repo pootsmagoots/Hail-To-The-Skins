@@ -26,9 +26,6 @@ body {
   min-height: 100vh;
 }
 
-.container {
-  flex: 1;
-}
 
 
 /* Styling of header/banner and content inside header
@@ -115,7 +112,6 @@ player section on main page
   margin: auto;
   text-align: center;
 }
-
 .player-section {
   display: flex;
   flex-direction: row;
@@ -182,11 +178,6 @@ player section on main page
   margin-right: 0.625em;
 }
 
-.primary-content h2 {
-  font-size: 1.5rem;
-  font-family: "Roboto-Thin", Arial, sans-serif;
-}
-
 
 /* styling secondary content divs/pictures and heading/paragraphs */
 
@@ -206,12 +197,14 @@ player section on main page
   margin: 0 auto;
   width: 80%;
   height: 55em;
+
 }
 
 .superbowl-section h3 {
   text-align: center;
   font-size: 2rem;
   font-family: "Roboto-Thin", Arial, sans-serif;
+
 }
 
 .three {
@@ -224,12 +217,15 @@ player section on main page
   justify-content: space-around;
   color: #000;
   font-size: 2rem;
+
 }
 
 .superbowls {
   margin: 20px;
   font-size: 1rem;
+
 }
+
 
 
 /* classes/elements used over multiple elements
@@ -296,6 +292,10 @@ li:hover {
   transform: scale(1.3);
 }
 
+.logo:hover {
+  transform: rotate(20deg);
+}
+
 
 /* Media Queries
 ----------------------------------- */
@@ -312,6 +312,7 @@ li:hover {
   .banner {
     margin-top: 122px;
   }
+
 }
 
 @media (max-width: 884px) {
@@ -331,9 +332,7 @@ li:hover {
     text-align: center;
     flex-wrap: wrap;
   }
-  .superbowls {
-    flex: 1 50%;
-  }
+
   .superbowl-section {
     height: 95em;
   }
