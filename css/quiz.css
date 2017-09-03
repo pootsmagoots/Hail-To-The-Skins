@@ -1,0 +1,14 @@
+
+
+
+/* Universal Selectors */
+
+* {
+ box-sizing: border-box;
+}
+
+body {
+  font-family: "Roberto Thin", Georgia, sans-serif;
+  background-color: #E6ECF0;
+  font-size: 1em;
+}

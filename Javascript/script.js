@@ -23,4 +23,8 @@ $('.banner').css({'-webkit-filter': "blur("+pixs+"px)", "filter":
 });
 
 
+
+
+
+
 });

@@ -16,8 +16,6 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
   font-size: 1em;
   display: flex;
   flex-direction: column;
@@ -202,6 +200,10 @@ background: linear-gradient(#000 10%, transparent 40%),
 .scroll:hover {
   transform: rotate(10deg);
   cursor: pointer;
+}
+
+.row {
+  margin: 0 20px;
 }
 
 
