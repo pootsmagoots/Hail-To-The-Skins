@@ -65,7 +65,9 @@ body {
 
 .first,
 .offensive-line,
-.second {
+.second,
+.third,
+.fourth {
   display: flex;
 }
 
@@ -99,7 +101,7 @@ body {
 }
 
 li a {
-  color: red;
+  color: #6C0F26;
 }
 
 
@@ -124,6 +126,10 @@ p {
   margin: 0 auto;
 }
 
+.space {
+ padding-bottom: 100px;
+}
+
 
 /* PSEUDO CODE
 ==================*/
@@ -131,9 +137,11 @@ p {
   cursor: pointer;
 }
 
-#hogs:hover {
+a:hover {
   color: #F5B312;
 }
+
+
 
 
 /* footer
@@ -163,6 +171,10 @@ border-top: 2px solid #F5B312;
 .main-header {
   flex-direction: column;
   align-items: center;
+}
+
+.space {
+ padding-bottom: 100px;
 }
 
 }
@@ -204,6 +216,10 @@ background: linear-gradient(#000 10%, transparent 40%),
 
 .row {
   margin: 0 20px;
+}
+
+.space {
+ padding-bottom: 100px;
 }
 
 
