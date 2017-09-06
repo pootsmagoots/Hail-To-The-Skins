@@ -73,6 +73,9 @@ ul li {
   background-color: gold;
   border: 2px solid #000;
   margin-top: 1px;
+  padding: 0 5px;
+  margin-right: 5px;
+
 }
 
 .title {
@@ -83,7 +86,8 @@ ul li {
 
 .banner h1 {
   font-family: "Roboto-Thin", Georgia, Arial, sans-serif;
-  font-weight: bolder;
+  font-weight: lighter;
+  font-size: 50px;
 }
 
 .banner .gold {
@@ -132,18 +136,18 @@ player section on main page
 ------------------------------------*/
 
 .linemen-div {
-  background: linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Russ-Grim.jpg") no-repeat center/cover;
-  background: -webkit-linear-gradient linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Russ-Grim.jpg") no-repeat center/cover;
-  background: -moz-linear-gradient linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Russ-Grim.jpg") no-repeat center/cover;
+  background: linear-gradient(#E6ECF0, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Russ-Grim.jpg") no-repeat center/cover;
+  background: -webkit-linear-gradient linear-gradient(#E6ECF0, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Russ-Grim.jpg") no-repeat center/cover;
+  background: -moz-linear-gradient linear-gradient(#E6ECF0, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Russ-Grim.jpg") no-repeat center/cover;
   width: 12.5em;
   height: 15.625em;
   margin: 0 0.625em;
 }
 
 .quarter-back-div {
-  background: -webkit-linear-gradient linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Sonny.jpg") no-repeat center/cover;
-  background: -moz-linear-gradient linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Sonny.jpg") no-repeat center/cover;
-  background: linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Sonny.jpg") no-repeat top/cover;
+  background: -webkit-linear-gradient linear-gradient(#E6ECF0, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Sonny.jpg") no-repeat center/cover;
+  background: -moz-linear-gradient linear-gradient(#E6ECF0, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Sonny.jpg") no-repeat center/cover;
+  background: linear-gradient(#E6ECF0, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Sonny.jpg") no-repeat top/cover;
   width: 12.5em;
   height: 15.625em;
   margin: 0 0.625em;
@@ -151,18 +155,18 @@ player section on main page
 }
 
 .running-back-div {
-  background: -webkit-linear-gradient linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/John-Riggins.jpg") no-repeat center/cover;
-  background: -moz-linear-gradient linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/John-Riggins.jpg") no-repeat center/cover;
-  background: linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/John-Riggins.jpg") no-repeat top/cover;
+  background: -webkit-linear-gradient linear-gradient(#E6ECF0, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/John-Riggins.jpg") no-repeat center/cover;
+  background: -moz-linear-gradient linear-gradient(#E6ECF0, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/John-Riggins.jpg") no-repeat center/cover;
+  background: linear-gradient(#E6ECF0, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/John-Riggins.jpg") no-repeat top/cover;
   width: 12.5em;
   height: 15.625em;
   margin: 0 0.625em;
 }
 
 .defense-player-div {
-  background: -webkit-linear-gradient linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Darrel-Green.jpg") no-repeat center/cover;
-  background: -moz-linear-gradient linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Darrel-Green.jpg") no-repeat center/cover;
-  background: linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Darrel-Green.jpg") no-repeat top/cover;
+  background: -webkit-linear-gradient linear-gradient(#E6ECF0, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Darrel-Green.jpg") no-repeat center/cover;
+  background: -moz-linear-gradient linear-gradient(#E6ECF0, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Darrel-Green.jpg") no-repeat center/cover;
+  background: linear-gradient(#E6ECF0, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Darrel-Green.jpg") no-repeat top/cover;
   width: 12.5em;
   height: 15.625em;
   margin-top: 0.9375em;
@@ -170,9 +174,9 @@ player section on main page
 }
 
 .receiver-div {
-  background: -webkit-linear-gradient linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Artmonkjpg") no-repeat center/cover;
-  background: -moz-linear-gradient linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Artmonk.jpg") no-repeat center/cover;
-  background: linear-gradient(#fff, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url('../img/Artmonk.jpg') no-repeat top/cover;
+  background: -webkit-linear-gradient linear-gradient(#E6ECF0, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Artmonkjpg") no-repeat center/cover;
+  background: -moz-linear-gradient linear-gradient(#E6ECF0, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url("../img/Artmonk.jpg") no-repeat center/cover;
+  background: linear-gradient(#E6ECF0, transparent), linear-gradient(0deg, #6C0F26, transparent 30%), url('../img/Artmonk.jpg') no-repeat top/cover;
   width: 12.5em;
   height: 15.625em;
   margin-top: 0.9375em;
@@ -373,7 +377,7 @@ li:hover {
     margin-right: 0.625em;
   }
   ul li {
-    padding: 0 5px;
+    padding: 0 10px;
     margin-right: 5px;
   }
 }
@@ -396,8 +400,10 @@ li:hover {
     flex: 1;
   }
   .banner h1 {
-    font-family: "Roboto-Thin", Georgia, Arial, sans-serif;
-    font-weight: bolder;
+    font-family: "Raleway", Georgia, Arial, sans-serif;
+    font-weight: lighter;
+    color: white;
+    font-size: 40px;
   }
   .linemen-div {
     width: 10.5em;
